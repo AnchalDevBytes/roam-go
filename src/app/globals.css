@@ -3,6 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --color-roam-go-mist: #c1d6d2; /* soft teal background */
+  --color-roam-go-forest: #1c2b21; /* deep heading text */
+  --color-roam-go-button: #202f26; /* dark CTA button */
+  --color-roam-go-subtext: #4a5e53; /* muted subtext */
+  --color-roam-go-bone: #f2f7f5; /* off-white */
 }
 
 @theme inline {
@@ -10,13 +16,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-roam-go-mist: var(--color-roam-go-mist);
+  --color-roam-go-forest: var(--color-roam-go-forest);
+  --color-roam-go-button: var(--color-roam-go-button);
+  --color-roam-go-subtext: var(--color-roam-go-subtext);
+  --color-roam-go-bone: var(--color-roam-go-bone);
 }
 
 body {
