@@ -1,10 +1,17 @@
+"use client";
+import { HeroSection } from "@/components/landing-page/hero-section";
+
 const HomePage = () => {
   return (
-    <div className="flex flex-col items-center justify-center pt-32">
-      <h1 className="text-4xl font-bold text-roam-go-forest">
-        Welcome to Roam Go
-      </h1>
-    </div>
+    <main className="w-full m-0 p-0 overflow-x-hidden">
+      <HeroSection />
+      {/* <GallerySection />
+      <TravelCardsSection />
+      <FilteredTravelsSection />
+      <TestimonialsSection />
+      <TravelStoriesSection />
+      <ContactSection /> */}
+    </main>
   );
 };
 

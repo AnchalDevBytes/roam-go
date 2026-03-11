@@ -1,16 +1,33 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {
+  Dancing_Script,
+  Figtree,
+  Geist_Mono,
+  Source_Serif_4,
+} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const figtree = Figtree({
+  variable: "--font-figtree",
+  subsets: ["latin"],
+});
+
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+const dancingScript = Dancing_Script({
+  variable: "--font-dancing-script",
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -26,11 +43,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${figtree.variable} ${sourceSerif.variable} ${geistMono.variable} ${dancingScript.variable} antialiased`}
       >
-        <div className="bg-roam-go-mist min-h-screen relative font-sans">
+        <div className="min-h-screen relative font-figtree">
           <Navbar />
-          <main>{children}</main>
+          {children}
         </div>
       </body>
     </html>

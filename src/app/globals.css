@@ -14,8 +14,11 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-figtree: var(--font-figtree);
+  --font-source-serif: var(--font-source-serif);
+  --font-sans: var(--font-figtree);
   --font-mono: var(--font-geist-mono);
+  --font-dancing-script: var(--font-dancing-script);
 
   --color-roam-go-mist: var(--color-roam-go-mist);
   --color-roam-go-forest: var(--color-roam-go-forest);
