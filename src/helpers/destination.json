@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Mount Fuji Expedition",
+    "location": "Japan",
+    "category": "Hike",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?q=80&w=800&auto=format&fit=crop",
+    "price": "$1,200",
+    "description": "Conquer the iconic snow-capped peak of Mount Fuji. A challenging yet deeply rewarding hike with breathtaking sunrise views.",
+    "story": "The ascent was demanding, but reaching the summit just as the sun broke the horizon was a spiritual experience I'll never forget."
+  },
+  {
+    "id": 2,
+    "title": "Swiss Alps Adventure",
+    "location": "Switzerland",
+    "category": "Adventures",
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=800&auto=format&fit=crop",
+    "price": "$2,500",
+    "description": "Experience the thrill of the Swiss Alps with guided climbing, paragliding, and traversing dramatic glacial landscapes.",
+    "story": "Paragliding over the valleys gave me a completely new perspective on the world. The guides were incredible and made every second feel safe and exhilarating."
+  },
+  {
+    "id": 3,
+    "title": "Bali Retreat",
+    "location": "Indonesia",
+    "category": "Solo",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800&auto=format&fit=crop",
+    "price": "$800",
+    "description": "Find yourself in the lush jungles of Ubud. Perfect for solo travelers seeking yoga, meditation, and deep cultural immersion.",
+    "story": "I traveled alone but never felt lonely. The local community and fellow travelers I met at the retreats made this a journey of profound personal growth."
+  },
+  {
+    "id": 4,
+    "title": "Safari Explorer",
+    "location": "Kenya",
+    "category": "Group",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=800&auto=format&fit=crop",
+    "price": "$3,100",
+    "description": "Join a small group traversing the Maasai Mara. Witness the Great Migration and camp under the expansive African sky.",
+    "story": "Seeing a pride of lions up close was surreal. Sharing these moments round the campfire with our group created lifelong friendships."
+  },
+  {
+    "id": 5,
+    "title": "Paris Getaway",
+    "location": "France",
+    "category": "Romantic",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=800&auto=format&fit=crop",
+    "price": "$1,800",
+    "description": "Stroll along the Seine, indulge in world-class cuisine, and experience the timeless romance of the City of Light.",
+    "story": "A twilight cruise on the Seine followed by dinner near the Eiffel Tower was the perfect way to celebrate our anniversary. Pure magic."
+  },
+  {
+    "id": 6,
+    "title": "Inca Trail Trek",
+    "location": "Peru",
+    "category": "Hike",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=800&auto=format&fit=crop",
+    "price": "$1,500",
+    "description": "Follow in the footsteps of the Incas. A multi-day trek through breathtaking Andean scenery culminating at the Sun Gate.",
+    "story": "The altitude was tough, but the camaraderie and the final reveal of Machu Picchu through the mist made every step worth it."
+  },
+  {
+    "id": 7,
+    "title": "Patagonia Wilderness",
+    "location": "Argentina",
+    "category": "Adventures",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377?q=80&w=800&auto=format&fit=crop",
+    "price": "$2,800",
+    "description": "Trek past jagged granite peaks, immense glaciers, and crystal-clear lakes in one of the world's most pristine wildernesses.",
+    "story": "Hearing the thunderous crack of the Perito Moreno glacier dropping ice into the lake is a sound that will stay with me forever."
+  },
+  {
+    "id": 8,
+    "title": "Costa Rica Explore",
+    "location": "Costa Rica",
+    "category": "Adventures",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "price": "$1,600",
+    "description": "Zipline through cloud forests, surf pristine beaches, and spot diverse wildlife in this Central American paradise.",
+    "story": "Waking up to the sound of howler monkeys and spending the day exploring hidden waterfalls was the ultimate escape from city life."
+  },
+  {
+    "id": 9,
+    "title": "Tuscan Wine Tour",
+    "location": "Italy",
+    "category": "Group",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=800&auto=format&fit=crop",
+    "price": "$2,200",
+    "description": "Tour historic vineyards, participate in cooking classes, and taste world-renowned wines in the rolling hills of Tuscany.",
+    "story": "Learning to make authentic pasta with a local nonna while sipping Chianti overlooking the vineyards was a culinary dream come true."
+  },
+  {
+    "id": 10,
+    "title": "Greek Islands Cruise",
+    "location": "Greece",
+    "category": "Group",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=800&auto=format&fit=crop",
+    "price": "$2,900",
+    "description": "Sail the azure waters of the Aegean Sea, hopping between ancient ruins, vibrant villages, and secluded beaches.",
+    "story": "Every island had its own unique charm. Relaxing on the deck of our catamaran as we sailed into a new port each day was absolute bliss."
+  },
+  {
+    "id": 11,
+    "title": "Kyoto Temples",
+    "location": "Japan",
+    "category": "Solo",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
+    "price": "$1,400",
+    "description": "Wander through serene Zen gardens, magnificent bamboo groves, and hundreds of historic shrines at your own pace.",
+    "story": "The quiet contemplation possible in Kyoto's lesser-known temples offered the perfect balance to the busy energy of Tokyo."
+  },
+  {
+    "id": 12,
+    "title": "Iceland Ring Road",
+    "location": "Iceland",
+    "category": "Solo",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?q=80&w=800&auto=format&fit=crop",
+    "price": "$2,100",
+    "description": "Embark on an epic solo road trip around an island of fire and ice. Discover waterfalls, black sand beaches, and geothermal pools.",
+    "story": "Driving alone through such dramatic landscapes made me feel small in the best possible way. The freedom to stop wherever I wanted was liberating."
+  },
+  {
+    "id": 13,
+    "title": "Maldives Honeymoon",
+    "location": "Maldives",
+    "category": "Romantic",
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=800&auto=format&fit=crop",
+    "price": "$4,500",
+    "description": "Stay in an overwater bungalow, snorkel in crystal-clear lagoons, and enjoy private beachfront dinners under the stars.",
+    "story": "Stepping out of our villa directly into the warm, turquoise ocean every morning was paradise. It was the perfect start to our marriage."
+  },
+  {
+    "id": 14,
+    "title": "Santorini Sunset",
+    "location": "Greece",
+    "category": "Romantic",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?q=80&w=800&auto=format&fit=crop",
+    "price": "$3,200",
+    "description": "Experience the ultimate romantic getaway in a whitewashed cliffside hotel with private infinity pools and iconic caldera views.",
+    "story": "Watching the sun dip below the Aegean from our private terrace, painting the sky in vibrant colors, is a memory we will cherish forever."
+  }
+]

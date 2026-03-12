@@ -7,6 +7,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
+import { Footer } from "@/components/layout/footer";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -48,6 +49,7 @@ export default function RootLayout({
         <div className="min-h-screen relative font-figtree">
           <Navbar />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

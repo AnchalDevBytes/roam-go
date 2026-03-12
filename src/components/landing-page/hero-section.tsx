@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "motion/react";
 import Link from "next/link";
 import { HugeiconsIcon } from "@hugeicons/react";
@@ -36,18 +35,6 @@ export const HeroSection = () => {
 
       <div className="container mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center pb-20 pt-32 lg:pt-36">
         <div className="flex flex-col items-start gap-8 z-20">
-          {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-roam-go-mist/50 shadow-sm"
-          >
-            <span className="flex h-2 w-2 rounded-full bg-roam-go-forest animate-pulse"></span>
-            <span className="text-sm font-medium text-roam-go-subtext ">
-              Discover the world with us
-            </span>
-          </motion.div> */}
-
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

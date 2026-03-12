@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { HugeiconsIcon } from "@hugeicons/react";
 import {
-  CamperIcon,
+  ArrowRight01Icon,
   Cancel01Icon,
   Menu09Icon,
 } from "@hugeicons/core-free-icons";
@@ -155,7 +155,7 @@ const Navbar = () => {
                     >
                       {link.name}
                       <span className="text-roam-go-mist group-hover:text-roam-go-forest transition-colors">
-                        &rarr;
+                        →
                       </span>
                     </Link>
                   </motion.div>
