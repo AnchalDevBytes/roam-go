@@ -7,8 +7,103 @@
     "rating": 4.9,
     "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?q=80&w=800&auto=format&fit=crop",
     "price": "$1,200",
+    "discount": "10% Early Bird",
+    "slots_available": 6,
+    "next_date": "july 2026",
     "description": "Conquer the iconic snow-capped peak of Mount Fuji. A challenging yet deeply rewarding hike with breathtaking sunrise views.",
-    "story": "The ascent was demanding, but reaching the summit just as the sun broke the horizon was a spiritual experience I'll never forget."
+    "story": "The ascent was demanding, but reaching the summit just as the sun broke the horizon was a spiritual experience I'll never forget.",
+    "extra_story": {
+      "title": "The Sacred Peak",
+      "subtitle": "Mount Fuji, Japan's sacred symbol of resilience and beauty, represents a profound spiritual heritage. Embark on this once-in-a-lifetime expedition, following in the footsteps of pilgrims who ascended its slopes for centuries. This journey balances physical challenge with serene contemplation, culminating in a breathtaking sunrise push where crimson light bathes the peak in golden splendor.",
+      "about": "Experience the spiritual heart of Japan. This trek is timed perfectly for the climbing season to ensure the best weather for the sunrise.",
+      "why_choose_us": [
+        "JATA Certified Guides",
+        "Oxygen Support Included",
+        "Luxury Basecamp Lodge"
+      ],
+      "accommodations": [
+        { "name": "5th Station Base", "description": "High-altitude mountain villa with essential climber amenities." },
+        { "name": "Summit Huts", "description": "Traditional alpine huts for an authentic 'Goraiko' sunrise experience." },
+        { "name": "Lakeside Resort", "description": "Premium onsen hotel in Kawaguchiko for post-climb relaxation." }
+      ],
+      "included": [
+        "JATA Certified mountain guides",
+        "Private transport from Shinjuku",
+        "Climbing insurance and permits",
+        "Two meals daily during the ascent",
+        "Specialized gear rental package"
+      ],
+      "packing_list": [
+        "Rigid hiking boots and thermal socks",
+        "High-performance windbreaker",
+        "Reliable headlamp (essential)",
+        "Minimum 2L water capacity",
+        "Lightweight trekking poles"
+      ],
+      "pricing_details": [
+        "Peak Season (July-Aug): $1,200",
+        "Shoulder Season (Sep): $1,050",
+        "Group Rate (4+): $950 per person"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1",
+          "title": "Tokyo to the Base",
+          "activities": [
+            {
+              "title": "Shinjuku Departure",
+              "description": "Meet our team in Shinjuku for the scenic 2.5-hour drive to the 5th Station."
+            },
+            {
+              "title": "Altitude Acclimatization",
+              "description": "Spend several hours at 2,300m, followed by a gear orientation and safety briefing."
+            }
+          ],
+          "highlights": [
+            "Scenic Fifth Station sights",
+            "Professional climbing briefing",
+            "Japanese mountain hospitality"
+          ],
+          "image": "https://images.unsplash.com/photo-1570191947481-ed10f1332000"
+        },
+        {
+          "day_range": "Day 2",
+          "title": "The Upward Push",
+          "activities": [
+            {
+              "title": "Ascent to the 8th Station",
+              "description": "A steady 5-6 hour hike through volcanic paths to reach our summit-ready hut."
+            }
+          ],
+          "highlights": [
+            "Unrivaled views of Mount Hoei",
+            "Traditional hut-style dinner",
+            "Sleeping above the clouds"
+          ],
+          "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef21"
+        },
+        {
+          "day_range": "Day 3",
+          "title": "Sunrise and Soft Return",
+          "activities": [
+            {
+              "title": "Midnight Summit Bid",
+              "description": "A challenging push to the peak to catch the world-famous Goraiko sunrise."
+            },
+            {
+              "title": "Kawaguchiko Onsen Soak",
+              "description": "Descend for a celebratory soak in natural hot springs overlooking the lake."
+            }
+          ],
+          "highlights": [
+            "The iconic Goraiko sunrise",
+            "Official summit certification",
+            "Relaxing lakeside transition"
+          ],
+          "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65"
+        }
+      ]
+    }
   },
   {
     "id": 2,
@@ -18,8 +113,72 @@
     "rating": 5.0,
     "image": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=800&auto=format&fit=crop",
     "price": "$2,500",
+    "discount": "$200 Seasonal Discount",
+    "slots_available": 4,
+    "next_date": "june 2026",
     "description": "Experience the thrill of the Swiss Alps with guided climbing, paragliding, and traversing dramatic glacial landscapes.",
-    "story": "Paragliding over the valleys gave me a completely new perspective on the world. The guides were incredible and made every second feel safe and exhilarating."
+    "story": "Paragliding over the valleys gave me a completely new perspective on the world. The guides were incredible and made every second feel safe and exhilarating.",
+    "extra_story": {
+      "title": "High Alpine Thrills",
+      "subtitle": "The Swiss Alps offer a world-class playground where jagged peaks and glacial lakes blur the boundaries between Earth and sky. Designed for those seeking adventure amidst unparalleled beauty, this journey takes you from the vertical massifs of Interlaken to deep canyons and high accessible points. Experience the alpine soul with luxury chalets providing warmth against the rugged outdoors.",
+      "about": "A 7-day adrenaline-fueled journey through Interlaken and Zermatt.",
+      "why_choose_us": [
+        "Expert IFMGA Guides",
+        "VIP Rail Passes",
+        "Action Camera Rental Included"
+      ],
+      "accommodations": "Five-star Alpine Chalets.",
+      "included": [
+        "Paragliding fees",
+        "Glacier gear",
+        "All breakfast/dinner",
+        "Train transfers"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Interlaken Welcome",
+          "activity": "Arrival and safety briefing followed by a lake-side welcome dinner.",
+          "image": "https://images.unsplash.com/photo-1528629202447-cead7028df1d"
+        },
+        {
+          "day": 2,
+          "title": "Sky High Paragliding",
+          "activity": "Tandem paragliding over the Lauterbrunnen Valley.",
+          "image": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7"
+        },
+        {
+          "day": 3,
+          "title": "The Eiger Express",
+          "activity": "Travel to Jungfraujoch, the top of Europe, for glacier walking.",
+          "image": "https://images.unsplash.com/photo-1476412754448-4e945c73859f"
+        },
+        {
+          "day": 4,
+          "title": "Canyoning Adventure",
+          "activity": "Navigating the deep gorges of the Bernese Oberland.",
+          "image": "https://images.unsplash.com/photo-1510425026217-21a4645163f4"
+        },
+        {
+          "day": 5,
+          "title": "Zermatt Transit",
+          "activity": "Scenic train ride to Zermatt and view of the Matterhorn.",
+          "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+        },
+        {
+          "day": 6,
+          "title": "Rock Climbing",
+          "activity": "Introductory alpine rock climbing on the Riffelhorn peaks.",
+          "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851"
+        },
+        {
+          "day": 7,
+          "title": "Farewell Alps",
+          "activity": "Final gourmet brunch and mountain photography session.",
+          "image": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7"
+        }
+      ]
+    }
   },
   {
     "id": 3,
@@ -29,8 +188,129 @@
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800&auto=format&fit=crop",
     "price": "$800",
+    "discount": "Stay 6 nights, pay for 5",
+    "slots_available": 12,
+    "next_date": "may 2026",
     "description": "Find yourself in the lush jungles of Ubud. Perfect for solo travelers seeking yoga, meditation, and deep cultural immersion.",
-    "story": "I traveled alone but never felt lonely. The local community and fellow travelers I met at the retreats made this a journey of profound personal growth."
+    "story": "I traveled alone but never felt lonely. The local community and fellow travelers I met at the retreats made this a journey of profound personal growth.",
+    "extra_story": {
+      "title": "Soul Awakening in Ubud",
+      "subtitle": "In Ubud's spiritual heart, this retreat offers a profound journey into the self, surrounded by lush jungles and emerald terraces. It is a carefully curated sanctuary for disconnection and rebirth. Through daily yoga, sunrise meditations, and traditional ceremonies, you will nourish your spirit and reclaim your inner rhythm in a community of like-minded solo travelers.",
+      "about": "A week-long sanctuary for the mind and body in the heart of Bali's spiritual hub.",
+      "why_choose_us": [
+        "Renowned Yoga Masters",
+        "Holistic Wellness Plans",
+        "Safe Solo-Travel Environment"
+      ],
+      "accommodations": [
+        { "name": "Bali (Arrival)", "description": "Oceanfront resort offering modern luxury and tropical tranquility." },
+        { "name": "Ubud", "description": "Boutique jungle retreat surrounded by rice terraces and cultural sites." },
+        { "name": "Coastal Retreat", "description": "Beachfront villa with private pools and serene ocean views." }
+      ],
+      "included": [
+        "All accommodations as listed in the itinerary",
+        "Guided excursions with local experts",
+        "Daily breakfast, select lunches, and dinners with traditional dishes",
+        "Entry fees to all attractions and temples",
+        "Round-trip airport and inter-island transfers",
+        "Snorkeling and cultural experiences as outlined"
+      ],
+      "packing_list": [
+        "Light, breathable clothing for tropical weather",
+        "Comfortable sandals and walking shoes",
+        "Swimsuit and reef-safe sunscreen",
+        "Reusable water bottle and insect repellent",
+        "Camera or travel journal for memories"
+      ],
+      "pricing_details": [
+        "Standard Price: Starting at $4,500 per person",
+        "Early Bird Discount: Save 15% by booking at least 90 days in advance",
+        "Family Package: 10% off for groups of four or more",
+        "Returning Traveler Discount: 5% off for repeat guests"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Arrival and Welcome to Bali",
+          "activities": [
+            {
+              "title": "Arrival and Hotel Check-In",
+              "description": "Begin your tropical escape with a warm reception in Bali. You'll be transferred to a seaside resort where you can relax, swim, or stroll along golden beaches."
+            },
+            {
+              "title": "Cultural Welcome Experience",
+              "description": "Immerse yourself in the island's charm through traditional Balinese dance, music, and an evening feast that introduces authentic local flavors."
+            }
+          ],
+          "highlights": [
+            "Traditional Legong dance performance",
+            "Seaside welcome dinner with local delicacies",
+            "Sunset beach walk and relaxation"
+          ],
+          "image": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62"
+        },
+        {
+          "day_range": "Day 3-4",
+          "title": "Jungle Immersion in Ubud",
+          "activities": [
+            {
+              "title": "Sunrise Yoga and Meditation",
+              "description": "Wake up to the sounds of nature with a soul-soothing yoga session followed by a peaceful meditation overlooking the rice terraces."
+            },
+            {
+              "title": "Rice Terrace Trek and Village Visit",
+              "description": "Trek through the world-famous Tegallalang rice fields and visit a local Balinese village to experience their unique way of life."
+            }
+          ],
+          "highlights": [
+            "Breathtaking views of Tegallalang",
+            "Authentic Balinese village interaction",
+            "Refreshment from coconut water in the fields"
+          ],
+          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773"
+        },
+        {
+          "day_range": "Day 5-6",
+          "title": "Spiritual Cleansing and Arts",
+          "activities": [
+            {
+              "title": "Holy Water Temple Ritual",
+              "description": "Visit Tirta Empul Temple for a traditional purification ritual in the sacred holy springs."
+            },
+            {
+              "title": "Traditional Art Workshop",
+              "description": "Unleash your creativity in an authentic Balinese wood carving or silver jewelry making workshop led by local artisans."
+            }
+          ],
+          "highlights": [
+            "Spiritual purification at Tirta Empul",
+            "Handcrafted souvenir creation",
+            "Deep dive into Balinese artistic heritage"
+          ],
+          "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2"
+        },
+        {
+          "day_range": "Day 7",
+          "title": "Seaside Reflection and Departure",
+          "activities": [
+            {
+              "title": "Closing Ceremony and Sunrise Farewell",
+              "description": "Gather for a final group reflection and a beautiful sunrise ceremony on the beach."
+            },
+            {
+              "title": "Island Souvenir Shopping",
+              "description": "Enjoy free time for last-minute shopping at the vibrant local markets before your departure."
+            }
+          ],
+          "highlights": [
+            "Meaningful closing circle",
+            "Market exploration and vibrant local colors",
+            "Stress-free airport transfer"
+          ],
+          "image": "https://images.unsplash.com/photo-1510076857177-7470076d4098"
+        }
+      ]
+    }
   },
   {
     "id": 4,
@@ -40,8 +320,106 @@
     "rating": 4.9,
     "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=800&auto=format&fit=crop",
     "price": "$3,100",
+    "discount": "Group of 4+ save 15%",
+    "slots_available": 8,
+    "next_date": "august 2026",
     "description": "Join a small group traversing the Maasai Mara. Witness the Great Migration and camp under the expansive African sky.",
-    "story": "Seeing a pride of lions up close was surreal. Sharing these moments round the campfire with our group created lifelong friendships."
+    "story": "Seeing a pride of lions up close was surreal. Sharing these moments round the campfire with our group created lifelong friendships.",
+    "extra_story": {
+      "title": "The Wild Horizon",
+      "subtitle": "Journey into the heart of the wild Maasai Mara, where the savannah unfolds beneath an endless African sky. This safari brings you face-to-face with the legendary Big Five and the raw drama of the Great Migration. Led by expert Maasai guides, you will experience a visceral connection to the land, balancing thrilling game drives with luxury glamping.",
+      "about": "An epic 7-day loop through Kenya’s premier wildlife conservancies.",
+      "why_choose_us": [
+        "Custom 4x4 Land Cruisers",
+        "Maasai Ranger Guides",
+        "Luxury Glamping"
+      ],
+      "accommodations": [
+        { "name": "Mara Luxury Camp", "description": "High-end tented camp with ensuite facilities and private balconies overlooking the plains." },
+        { "name": "Nairobi Safari Club", "description": "Iconic city hotel offering a blend of modern comfort and colonial charm." }
+      ],
+      "included": [
+        "Professional Maasai safari guides",
+        "Unlimited game drives in 4x4 Land Cruisers",
+        "All national park and conservancy fees",
+        "Bush breakfast and star-lit dinners",
+        "Internal flights within Kenya"
+      ],
+      "packing_list": [
+        "Neutral-colored safari clothing (khaki, olive)",
+        "Powerful binoculars for wildlife spotting",
+        "Sun hat and high-SPF sunscreen",
+        "Rechargeable batteries and power banks",
+        "Antimalarial medication and insect repellent"
+      ],
+      "pricing_details": [
+        "Standard Safari: Starting at $3,100 per person",
+        "Migration Peak Season: +$500 per person",
+        "Extended Stay (10 days): Starting at $4,200"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Nairobi and the Great Rift Valley",
+          "activities": [
+            {
+              "title": "Nairobi Arrival and Briefing",
+              "description": "Meet your guides and fellow travelers for a welcome dinner and safari orientation."
+            },
+            {
+              "title": "Drive to Maasai Mara",
+              "description": "Descend into the Great Rift Valley, stopping for breathtaking panoramic views before reaching the Mara."
+            }
+          ],
+          "highlights": [
+            "Great Rift Valley viewpoints",
+            "First afternoon game drive",
+            "African sunset over the savannah"
+          ],
+          "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "Maasai Mara Deep Immersion",
+          "activities": [
+            {
+              "title": "Full-day Game Tracking",
+              "description": "Spend entire days tracking the Big Five across the vast golden plains of the Mara."
+            },
+            {
+              "title": "Maasai Village Cultural Visit",
+              "description": "Learn about the ancient traditions and warrior culture of the local Maasai people."
+            }
+          ],
+          "highlights": [
+            "Close encounters with lions and cheetahs",
+            "Intimate look at Maasai life",
+            "Picnic lunch in the heart of the wild"
+          ],
+          "image": "https://images.unsplash.com/photo-1523805081446-ed9a76d2f9d9"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "River Crossing and Farewell",
+          "activities": [
+            {
+              "title": "Mara River Exploration",
+              "description": "Explore the banks of the Mara River, home to massive crocodiles and pods of hippos."
+            },
+            {
+              "title": "Sunrise Balloon Safari (Optional)",
+              "description": "Soar over the Mara at dawn for a perspective like no other (extra charge)."
+            }
+          ],
+          "highlights": [
+            "Hippopotamus and crocodile spotting",
+            "Farewell bush dinner under the stars",
+            "Magnificent sunrise views"
+          ],
+          "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e"
+        }
+      ]
+    }
   },
   {
     "id": 5,
@@ -51,8 +429,106 @@
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=800&auto=format&fit=crop",
     "price": "$1,800",
+    "discount": "Complimentary Seine Cruise",
+    "slots_available": 10,
+    "next_date": "february 2026",
     "description": "Stroll along the Seine, indulge in world-class cuisine, and experience the timeless romance of the City of Light.",
-    "story": "A twilight cruise on the Seine followed by dinner near the Eiffel Tower was the perfect way to celebrate our anniversary. Pure magic."
+    "story": "A twilight cruise on the Seine followed by dinner near the Eiffel Tower was the perfect way to celebrate our anniversary. Pure magic.",
+    "extra_story": {
+      "title": "L'Amour à Paris",
+      "subtitle": "Paris, the timeless City of Light, offers a romantic backdrop that has inspired generations. This curated journey immerses you in the elegance of L'Art de Vivre, from the Eiffel Tower’s grandeur to hidden Marais gardens. Enjoy Seine cruises and Michelin-starred dining, celebrating love and beauty in every cobblestone street of this enduring urban masterpiece.",
+      "about": "A curated romantic journey through the cobblestone streets and hidden gardens of Paris.",
+      "why_choose_us": [
+        "Private Michelin Dinner",
+        "Bypass-the-line Museum Access",
+        "Expert Local Storytellers"
+      ],
+      "accommodations": [
+        { "name": "Hôtel Particulier", "description": "Romantic 17th-century mansion in the heart of Le Marais district." },
+        { "name": "Montmartre Suites", "description": "Elegant apartments with views of the Sacré-Cœur and Parisian rooftops." }
+      ],
+      "included": [
+        "Private Michelin-starred dinner",
+        "Bypass-the-line museum access",
+        "Seine river champagne cruise",
+        "Wine and cheese tasting session",
+        "Luxury city transfers"
+      ],
+      "packing_list": [
+        "Chic evening wear for fine dining",
+        "Very comfortable walking shoes for cobblestones",
+        "Lightweight scarf and trench coat",
+        "Portable charger and universal adapter",
+        "French language basic guide"
+      ],
+      "pricing_details": [
+        "Standard Package: Starting at $1,800 per person",
+        "Anniversary Upgrade: +$400",
+        "Private Photographer Add-on: $250"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Marais Magic and Night Lights",
+          "activities": [
+            {
+              "title": "Marais Exploration",
+              "description": "Wander through medieval streets, hidden gardens, and boutique art galleries."
+            },
+            {
+              "title": "Seine Champagne Cruise",
+              "description": "Enjoy a bubbly sunset as the city's monuments begin their nightly sparkle."
+            }
+          ],
+          "highlights": [
+            "Sunset at Place des Vosges",
+            "Mona Lisa private viewing",
+            "Seine riverfront evening walk"
+          ],
+          "image": "https://images.unsplash.com/photo-1431274172761-fca41d93e114"
+        },
+        {
+          "day_range": "Day 3-4",
+          "title": "Artists and Architecture",
+          "activities": [
+            {
+              "title": "Montmartre Morning",
+              "description": "Artist-led tour of the historic quarter and the Sacré-Cœur Basilica."
+            },
+            {
+              "title": "Versailles Day Trip",
+              "description": "Skip the lines for a royal journey through the Hall of Mirrors and grand gardens."
+            }
+          ],
+          "highlights": [
+            "Panoramic views from Sacré-Cœur",
+            "Versailles garden picnic",
+            "Traditional French breakfast"
+          ],
+          "image": "https://images.unsplash.com/photo-1503917988258-f87a78e3c995"
+        },
+        {
+          "day_range": "Day 5-7",
+          "title": "Gourmet Farewell",
+          "activities": [
+            {
+              "title": "Le Marais Food Tour",
+              "description": "Taste the finest cheeses, wines, and chocolates with our local food specialist."
+            },
+            {
+              "title": "Champs-Élysées Luxury Walk",
+              "description": "Final morning of shopping and afternoon tea before your departure."
+            }
+          ],
+          "highlights": [
+            "Artisanal chocolate tasting",
+            "High-end fashion boutiques",
+            "Final sunset at Arc de Triomphe"
+          ],
+          "image": "https://images.unsplash.com/photo-1549110667-074094a9a463"
+        }
+      ]
+    }
   },
   {
     "id": 6,
@@ -62,8 +538,106 @@
     "rating": 4.9,
     "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=800&auto=format&fit=crop",
     "price": "$1,500",
+    "discount": "Book 6 months ahead for $150 off",
+    "slots_available": 5,
+    "next_date": "may 2026",
     "description": "Follow in the footsteps of the Incas. A multi-day trek through breathtaking Andean scenery culminating at the Sun Gate.",
-    "story": "The altitude was tough, but the camaraderie and the final reveal of Machu Picchu through the mist made every step worth it."
+    "story": "The altitude was tough, but the camaraderie and the final reveal of Machu Picchu through the mist made every step worth it.",
+    "extra_story": {
+      "title": "Empire of the Sun",
+      "subtitle": "Follow the ancient path of the Incan Empire, a high-altitude trek through dramatic Andean landscapes. This journey leads you along original stone-paved trails to the legendary Machu Picchu. Ascend through misty cloud forests and formidable passes, discovering archaeological wonders while respecting the land and local communities on this spiritual mountain awakening.",
+      "about": "The classic 4-day trek expanded into a 7-day cultural immersion in Cusco and the Sacred Valley.",
+      "why_choose_us": [
+        "Porters with Fair Wages",
+        "Gourmet Trail Food",
+        "Eco-Friendly Camping Gear"
+      ],
+      "accommodations": [
+        { "name": "Cusco Boutique Hotel", "description": "Luxe colonial-style hotel perfect for high-altitude acclimatization." },
+        { "name": "Expedition Tents", "description": "High-quality, weather-resistant tents with comfortable sleeping pads." }
+      ],
+      "included": [
+        "Machu Picchu permits and entry fees",
+        "Luxury Vistadome train tickets",
+        "Professional chefs and gourmet trail meals",
+        "Emergency oxygen and first-aid kits",
+        "Small group intimate experience"
+      ],
+      "packing_list": [
+        "Well-broken-in hiking boots",
+        "Thermal base layers and down jacket",
+        "Rain poncho or waterproof shell",
+        "Trekking poles and daypack",
+        "Sunscreen and altitude sickness remedy"
+      ],
+      "pricing_details": [
+        "Classic Trek: Starting at $1,500 per person",
+        "Private Tour Upgrade: +$600",
+        "Luxury Train Upgrade: +$150"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Acclimatization in Cusco",
+          "activities": [
+            {
+              "title": "Cusco Arrival and Rest",
+              "description": "Slow down and adjust to the 3,400m altitude with a welcome coca tea and luxury hotel rest."
+            },
+            {
+              "title": "Sacred Valley Exploration",
+              "description": "Visit the impressive ruins of Pisac and the ink-stone fortress of Ollantaytambo."
+            }
+          ],
+          "highlights": [
+            "Inca stone masonry at Ollantaytambo",
+            "Colorful Pisac artisan market",
+            "Andean alpaca farm visit"
+          ],
+          "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "The High Pass and Cloud Forests",
+          "activities": [
+            {
+              "title": "Dead Woman's Pass",
+              "description": "Conquer the highest point of the trek at 4,200m for breathtaking panoramic vistas."
+            },
+            {
+              "title": "Phuyupatamarca Descent",
+              "description": "Hike through lush cloud forests filled with native orchids and rare birdlife."
+            }
+          ],
+          "highlights": [
+            "Crossing the 4,200m pass",
+            "Spectacular views of Vilcanota range",
+            "Ghostly ruins of Phuyupatamarca"
+          ],
+          "image": "https://images.unsplash.com/photo-1581044733027-e85d96b34645"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "The Sun Gate Reveal",
+          "activities": [
+            {
+              "title": "Machu Picchu Entrance",
+              "description": "Arrive at Intipunku (Sun Gate) for your first view of the Citadel in the early light."
+            },
+            {
+              "title": "Luxury Return",
+              "description": "Celebrate your achievement with a gourmet lunch and a scenic train ride back to Cusco."
+            }
+          ],
+          "highlights": [
+            "Sunrise over Machu Picchu",
+            "In-depth guided tour of the ruins",
+            "Vistadome luxury train return"
+          ],
+          "image": "https://images.unsplash.com/photo-1531816458010-fb7685eecbcb"
+        }
+      ]
+    }
   },
   {
     "id": 7,
@@ -73,8 +647,106 @@
     "rating": 4.9,
     "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377?q=80&w=800&auto=format&fit=crop",
     "price": "$2,800",
+    "discount": "Fly-in special: $200 airfare credit",
+    "slots_available": 6,
+    "next_date": "november 2026",
     "description": "Trek past jagged granite peaks, immense glaciers, and crystal-clear lakes in one of the world's most pristine wildernesses.",
-    "story": "Hearing the thunderous crack of the Perito Moreno glacier dropping ice into the lake is a sound that will stay with me forever."
+    "story": "Hearing the thunderous crack of the Perito Moreno glacier dropping ice into the lake is a sound that will stay with me forever.",
+    "extra_story": {
+      "title": "Edge of the World",
+      "subtitle": "At the world’s edge, Patagonia stands as a final frontier of jagged granite spires and massive glaciers. This wilderness expedition offers a rare chance to witness the primal forces of nature, from turquoise lakes to the thunderous roar of Perito Moreno. Trek through pristine forests and find sanctuary in luxury eco-lodges.",
+      "about": "Explore the remote beauty of El Chalten and Perito Moreno.",
+      "why_choose_us": [
+        "Small Group (Max 6)",
+        "Private Glaciologist Guides",
+        "Premium Cold-Weather Gear"
+      ],
+      "accommodations": [
+        { "name": "Patagonia Eco-Lodge", "description": "Luxe cabins with panoramic views of Mount Fitz Roy." },
+        { "name": "Glamping Hub", "description": "Geodesic domes with transparent ceilings for star-gazing." }
+      ],
+      "included": [
+        "Private glacier trekking equipment",
+        "Expert Patagonian mountain guides",
+        "All national park entrance fees",
+        "Argentinian BBQ welcome dinner",
+        "Domestic flights within Argentina"
+      ],
+      "packing_list": [
+        "Windproof and waterproof outer layer",
+        "Moisture-wicking thermal layers",
+        "Sturdy high-ankle hiking boots",
+        "UV-protection mountain sunglasses",
+        "Strong sunblock and lip balm"
+      ],
+      "pricing_details": [
+        "Expedition Base: Starting at $2,800 per person",
+        "Solo Traveler Supplement: +$800",
+        "Glacier Trek Upgrade: +$150"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Glaciers and Lakes",
+          "activities": [
+            {
+              "title": "Perito Moreno Trek",
+              "description": "Don your crampons for a walk on the blue ice of one of the world's only advancing glaciers."
+            },
+            {
+              "title": "Lake Viedma Navigation",
+              "description": "Sail past icebergs that have calved from the massive Viedma glacier."
+            }
+          ],
+          "highlights": [
+            "Touching the blue ice",
+            "Hearing the thunder of ice calving",
+            "Catamaran lake voyage"
+          ],
+          "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "Fitz Roy granite and spires",
+          "activities": [
+            {
+              "title": "Mount Fitz Roy Hike",
+              "description": "The quintessential Patagonia trek to the base of the iconic jagged peaks."
+            },
+            {
+              "title": "Cerro Torre Valley walk",
+              "description": "Explore the valley leading to the legendary needle of Cerro Torre."
+            }
+          ],
+          "highlights": [
+            "Laguna de los Tres vistas",
+            "Glacial lake reflections",
+            "Pristine southern forests"
+          ],
+          "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "Farewell to the South",
+          "activities": [
+            {
+              "title": "Patagonian BBQ Celebration",
+              "description": "Enjoy a traditional 'asado' lamb dinner at a local estancia."
+            },
+            {
+              "title": "Morning Lakeside walk",
+              "description": "A quiet moment of reflection along the shores of Lago Argentino."
+            }
+          ],
+          "highlights": [
+            "Authentic gaucho culture",
+            "Best BBQ in the world",
+            "Andean sunrise views"
+          ],
+          "image": "https://images.unsplash.com/photo-1506197603444-23e59760e1d0"
+        }
+      ]
+    }
   },
   {
     "id": 8,
@@ -84,8 +756,106 @@
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
     "price": "$1,600",
+    "discount": "Pura Vida Deal: $150 off for students",
+    "slots_available": 15,
+    "next_date": "march 2026",
     "description": "Zipline through cloud forests, surf pristine beaches, and spot diverse wildlife in this Central American paradise.",
-    "story": "Waking up to the sound of howler monkeys and spending the day exploring hidden waterfalls was the ultimate escape from city life."
+    "story": "Waking up to the sound of howler monkeys and spending the day exploring hidden waterfalls was the ultimate escape from city life.",
+    "extra_story": {
+      "title": "Pura Vida Paradise",
+      "subtitle": "Experience the vibrant essence of 'Pura Vida' in Costa Rica, balancing tropical adventure with coastal relaxation. Soar through Monteverde’s cloud forest, hike volcano lava flows, and spot exotic wildlife with biologist guides. Every moment is a celebration of life and nature, from the misty canopy to the Pacific surf breaks.",
+      "about": "A balance of high-octane adventure and beachfront relaxation.",
+      "why_choose_us": [
+        "Eco-Sustainability Awarded",
+        "Biologist Guides",
+        "Private Van Transfers"
+      ],
+      "accommodations": [
+        { "name": "Treehouse Lodge", "description": "Sustainable luxury in a high-canopy treehouse overlooking the jungle." },
+        { "name": "Pacific Sands Resort", "description": "Beachfront eco-resort with solar power and coral-safe pools." }
+      ],
+      "included": [
+        "Private cloud forest canopy tour",
+        "Certified biologist wildlife guides",
+        "All internal transfers in private AC vans",
+        "Daily organic tropical breakfasts",
+        "Pacific sunset catamaran cruise"
+      ],
+      "packing_list": [
+        "Lightweight, quick-dry clothing",
+        "High-grip sandals or water shoes",
+        "Environmentally friendly sunscreen",
+        "Reliable insect repellent",
+        "Small waterproof bag for river excursions"
+      ],
+      "pricing_details": [
+        "Adventure Base: Starting at $1,600 per person",
+        "Private Guide Upgrade: +$350",
+        "Surfer's Paradise Add-on: $200"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Volcano and Springs",
+          "activities": [
+            {
+              "title": "Arenal Volcano Hike",
+              "description": "Walk the historic lava flows from the 1968 eruption with view of the crater."
+            },
+            {
+              "title": "Hot Spring Rejuvenation",
+              "description": "Relax in the natural thermal waters of Tabacon, heated by the volcano's core."
+            }
+          ],
+          "highlights": [
+            "Perfect volcano cone views",
+            "Thermal river soak",
+            "Toucan and macaw spotting"
+          ],
+          "image": "https://images.unsplash.com/photo-1509233725247-49e657c54213"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "Cloud Forest Canopy",
+          "activities": [
+            {
+              "title": "Monteverde Zip-line",
+              "description": "Fly over the mist-covered canopy on one of the longest ziplines in the world."
+            },
+            {
+              "title": "Hanging Bridges Walk",
+              "description": "A peaceful sky-walk through the upper levels of the forest to spot rare quetzals."
+            }
+          ],
+          "highlights": [
+            "Adrenaline sky-flight",
+            "Orchid and moss forests",
+            "Cloud forest sunset"
+          ],
+          "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "Pacific Coast Bliss",
+          "activities": [
+            {
+              "title": "Manuel Antonio wildlife",
+              "description": "Explore the park where the jungle meets the sea, home to curious sloths."
+            },
+            {
+              "title": "Farewell Catamaran",
+              "description": "Celebrate your journey with a sunset cruise, snorkeling, and fresh local fruits."
+            }
+          ],
+          "highlights": [
+            "Sloths in the wild",
+            "Turquoise Pacific waters",
+            "Farewell beach party"
+          ],
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+        }
+      ]
+    }
   },
   {
     "id": 9,
@@ -95,8 +865,106 @@
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=800&auto=format&fit=crop",
     "price": "$2,200",
+    "discount": "Couple's Special: 10% off for two",
+    "slots_available": 8,
+    "next_date": "september 2026",
     "description": "Tour historic vineyards, participate in cooking classes, and taste world-renowned wines in the rolling hills of Tuscany.",
-    "story": "Learning to make authentic pasta with a local nonna while sipping Chianti overlooking the vineyards was a culinary dream come true."
+    "story": "Learning to make authentic pasta with a local nonna while sipping Chianti overlooking the vineyards was a culinary dream come true.",
+    "extra_story": {
+      "title": "The Art of Slow Living",
+      "subtitle": "In Tuscany’s rolling hills, embrace the art of slow living through wine, olives, and pasta. Celebrate Italy’s rich heritage with sommelier-led tastings and cooking classes from local nonnas. Between medieval towers and sun-drenched farmhouses, find clarity in a landscape where every meal is a communal ritual of quality and tradition.",
+      "about": "Savor the flavors of Italy in this boutique small-group cultural tour.",
+      "why_choose_us": [
+        "Sommelier-Led Tastings",
+        "Private Farmhouse Access",
+        "Small Group (Max 10)"
+      ],
+      "accommodations": [
+        { "name": "Palazzo Heritage", "description": "16th-century villa converted into a luxury boutique hotel with private gardens." },
+        { "name": "Chianti Farmhouse", "description": "Authentic 'agriturismo' surrounded by active wine estates and olive groves." }
+      ],
+      "included": [
+        "Expert sommelier for all tastings",
+        "Private cooking classes with a local 'Nonna'",
+        "Luxury AC micro-bus for all transport",
+        "Breakfast/Dinner inclusive of regional wines",
+        "Historical city guides for Florence and Siena"
+      ],
+      "packing_list": [
+        "Smart-casual dinner attire",
+        "Comfortable walking shoes for city tours",
+        "Lightweight layer for cooler evenings",
+        "A small notebook for recipes",
+        "Reusable bag for market discoveries"
+      ],
+      "pricing_details": [
+        "Cultural Discovery: Starting at $2,200 per person",
+        "Solo Room Upgrade: +$550",
+        "Private Truffle Hunt add-on: $120"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Heritage and Chianti",
+          "activities": [
+            {
+              "title": "Florence Duomo Walk",
+              "description": "Explore the cradle of the Renaissance with a private walk through Florence’s historic center."
+            },
+            {
+              "title": "Chianti Classico Tasting",
+              "description": "Visit a 12th-century castle winery for a vertical tasting of their best Chianti reserves."
+            }
+          ],
+          "highlights": [
+            "Duomo sunset aperitivo",
+            "Noble family wine cellars",
+            "Traditional Bistecca dinner"
+          ],
+          "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "Earth and Tradition",
+          "activities": [
+            {
+              "title": "Truffle Hunting Adventure",
+              "description": "Join a local hunter and his dogs in the morning mist to find the elusive black truffle."
+            },
+            {
+              "title": "Nonna's Masterclass",
+              "description": "Learn to roll pici pasta by hand in the kitchen of an authentic Tuscan farmhouse."
+            }
+          ],
+          "highlights": [
+            "Thrilling forest truffle search",
+            "Handmade pasta feast",
+            "Siena hilltop panoramic views"
+          ],
+          "image": "https://images.unsplash.com/photo-1533130061792-64b345e4a833"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "Sunsets and Olives",
+          "activities": [
+            {
+              "title": "Val d'Orcia Photo Tour",
+              "description": "Capture the iconic cypress-lined roads of the Orcia valley during the golden hour."
+            },
+            {
+              "title": "Olive Oil Farewell",
+              "description": "Final tasting of fresh cold-pressed oil followed by a group farewell dinner."
+            }
+          ],
+          "highlights": [
+            "Cypress lane photography",
+            "Award-winning oil tasting",
+            "Final sunset over the hills"
+          ],
+          "image": "https://images.unsplash.com/photo-1464154423281-9b1b78aa7c22"
+        }
+      ]
+    }
   },
   {
     "id": 10,
@@ -106,8 +974,106 @@
     "rating": 4.9,
     "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=800&auto=format&fit=crop",
     "price": "$2,900",
+    "discount": "$300 Off for Under-30s",
+    "slots_available": 12,
+    "next_date": "june 2026",
     "description": "Sail the azure waters of the Aegean Sea, hopping between ancient ruins, vibrant villages, and secluded beaches.",
-    "story": "Every island had its own unique charm. Relaxing on the deck of our catamaran as we sailed into a new port each day was absolute bliss."
+    "story": "Every island had its own unique charm. Relaxing on the deck of our catamaran as we sailed into a new port each day was absolute bliss.",
+    "extra_story": {
+      "title": "Odyssey on the Aegean",
+      "subtitle": "Sail the azure Aegean on a modern catamaran, hopping between the sun-bleached ruins and white-washed villages of the Cyclades. Experience Mediterranean freedom, from the energy of Mykonos to the lunar landscapes of Milos. Snorkel in secluded bays and enjoy fresh seafood as the sun sets over the island caldera.",
+      "about": "A 7-day sailing voyage hitting Mykonos, Paros, and Milos.",
+      "why_choose_us": [
+        "Professional Skipper & Host",
+        "Private Cabins",
+        "Off-the-beaten-path Bays"
+      ],
+      "accommodations": [
+        { "name": "Lagoon 450", "description": "Luxury catamaran with ensuite double cabins and sprawling deck space." },
+        { "name": "Paros Boutique Port", "description": "Luxe mainland stay for a night of shore-side rest and fine dining." }
+      ],
+      "included": [
+        "All mooring, fuel, and port fees",
+        "Professional skipper and onboard host",
+        "Snorkeling and paddleboard gear",
+        "Onboard breakfasts and Mediterranean lunches",
+        "Nightly wine and local appetizer selections"
+      ],
+      "packing_list": [
+        "Light, breezy ship-to-shore wear",
+        "Non-marking boat shoes or deck shoes",
+        "High-protection marine-safe sunblock",
+        "Wide-brimmed sun hat with chin strap",
+        "Soft-sided luggage (no hard shells)"
+      ],
+      "pricing_details": [
+        "Voyage Standard: Starting at $2,900 per person",
+        "Private Cabin Upgrade: +$450",
+        "Diving Excursion Add-on: $180"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Setting Sail for the Cyclades",
+          "activities": [
+            {
+              "title": "Athens Boarding",
+              "description": "Meet your crew at Alimos Marina for a welcome briefing and sunset departure for Kea."
+            },
+            {
+              "title": "Kythnos Bay Anchor",
+              "description": "Anchor in a secluded bay for your first Mediterranean swim and a sunset dinner on deck."
+            }
+          ],
+          "highlights": [
+            "Sunset sail from Athens",
+            "Crystalline island waters",
+            "Star-lit dinner on the catamaran"
+          ],
+          "image": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "Wind and Whitewash",
+          "activities": [
+            {
+              "title": "Paros Port Discovery",
+              "description": "Dock in Naoussa to explore the quintessential white-washed streets and boutique shops."
+            },
+            {
+              "title": "Secret Cove Snorkeling",
+              "description": "Sail to the uninhabited island of Polyaigos for snorkeling in otherworldly turquoise bays."
+            }
+          ],
+          "highlights": [
+            "Naoussa fishing village charm",
+            "Hidden caves and shipwrecks",
+            "Perfect sailing conditions"
+          ],
+          "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "The Southern Reach",
+          "activities": [
+            {
+              "title": "Milos Lunar Landscape",
+              "description": "Visit Sarakiniko beach, famous for its white volcanic rock formations that mirror the moon."
+            },
+            {
+              "title": "Farewell Sunset Beach",
+              "description": "A final beach club evening before the return journey and departure."
+            }
+          ],
+          "highlights": [
+            "Sarakiniko white cliffs",
+            "Beachfront celebration",
+            "Final dolphin spotting"
+          ],
+          "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f"
+        }
+      ]
+    }
   },
   {
     "id": 11,
@@ -117,8 +1083,106 @@
     "rating": 4.9,
     "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "price": "$1,400",
+    "discount": "Free Kimono Experience for solo travelers",
+    "slots_available": 4,
+    "next_date": "april 2026",
     "description": "Wander through serene Zen gardens, magnificent bamboo groves, and hundreds of historic shrines at your own pace.",
-    "story": "The quiet contemplation possible in Kyoto's lesser-known temples offered the perfect balance to the busy energy of Tokyo."
+    "story": "The quiet contemplation possible in Kyoto's lesser-known temples offered the perfect balance to the busy energy of Tokyo.",
+    "extra_story": {
+      "title": "The Zen Path",
+      "subtitle": "Kyoto, Japan’s spiritual heart, seamlessly blends Zen silence with modern energy. This contemplative solo journey invites you through centuries of history during the Sakura season. Experience traditional tea ceremonies and wander through bamboo groves, finding mindfulness and clarity in a city that masters the art of tradition in a modern world.",
+      "about": "A contemplative solo journey through Kyoto during the Sakura season.",
+      "why_choose_us": [
+        "Solo-Friendly Hotels",
+        "Local Transit Pass Included",
+        "Hidden Temple Maps"
+      ],
+      "accommodations": [
+        { "name": "Arashiyama Ryokan", "description": "Authentic Japanese inn with tatami floors, futons, and private onsen access." },
+        { "name": "Kyoto Center Suites", "description": "Modern minimalist studio hotel in the heart of the historic district." }
+      ],
+      "included": [
+        "All temple and shrine entrance fees",
+        "Private traditional tea ceremony experience",
+        "High-speed pocket Wi-Fi with unlimited data",
+        "Kyoto city transit pass (bus and rail)",
+        "Daily Japanese style breakfast sets"
+      ],
+      "packing_list": [
+        "Slip-on shoes for temple visits",
+        "Respectful clothing for religious sites",
+        "Compact umbrella or light raincoat",
+        "Refillable bottle for pure mountain water",
+        "Camera with extra memory cards"
+      ],
+      "pricing_details": [
+        "Solo Explorer: Starting at $1,400 per person",
+        "Gourmet Kaiseki Upgrade: +$180",
+        "Maiko Performance Dinner: $120"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Old Kyoto and Spirit",
+          "activities": [
+            {
+              "title": "Gion District Exploration",
+              "description": "Wander the preserved streets of Gion, famous for its historic teahouses and Geisha culture."
+            },
+            {
+              "title": "Kiyomizu-dera Sunset",
+              "description": "Visit the iconic wooden temple platform for a panoramic view of Kyoto during the golden hour."
+            }
+          ],
+          "highlights": [
+            "Spotting Geishas in Gion",
+            "Iconic wooden temple architecture",
+            "Cherry blossom path walks"
+          ],
+          "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "Zen Moments and Bamboo",
+          "activities": [
+            {
+              "title": "Arashiyama Bamboo Grove",
+              "description": "A tranquil sunrise walk through the towering green bamboo, followed by a river cruise."
+            },
+            {
+              "title": "Kinkaku-ji (Golden Pavilion)",
+              "description": "Witness the reflection of the gold-leaf temple in the mirror pond, a masterpiece of Zen design."
+            }
+          ],
+          "highlights": [
+            "Soothing sound of rustling bamboo",
+            "The Golden Pavilion’s brilliance",
+            "Zen rock garden meditation"
+          ],
+          "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "Torii Gates and Farewell",
+          "activities": [
+            {
+              "title": "Fushimi Inari Shrine Hike",
+              "description": "Hike through the thousands of vermilion torii gates winding up the sacred Mount Inari."
+            },
+            {
+              "title": "Traditional Tea Ceremony",
+              "description": "Conclude your journey with an intimate, master-led tea ceremony in a centuries-old garden."
+            }
+          ],
+          "highlights": [
+            "Endless vermilion torii tunnel",
+            "Sacred mountain views",
+            "Refined art of Matcha"
+          ],
+          "image": "https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1"
+        }
+      ]
+    }
   },
   {
     "id": 12,
@@ -128,8 +1192,106 @@
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?q=80&w=800&auto=format&fit=crop",
     "price": "$2,100",
+    "discount": "15% Winter Aurora Special",
+    "slots_available": 3,
+    "next_date": "october 2026",
     "description": "Embark on an epic solo road trip around an island of fire and ice. Discover waterfalls, black sand beaches, and geothermal pools.",
-    "story": "Driving alone through such dramatic landscapes made me feel small in the best possible way. The freedom to stop wherever I wanted was liberating."
+    "story": "Driving alone through such dramatic landscapes made me feel small in the best possible way. The freedom to stop wherever I wanted was liberating.",
+    "extra_story": {
+      "title": "Island of Elements",
+      "subtitle": "Journey through Iceland's land of fire and ice along the legendary Ring Road. This solo trip offers profound solitude amidst thunderous cascades and volcanic black sands. Navigate winding cliffs and steam vents, then soak in the Blue Lagoon while staying in unique glass cabins for a front-row seat to the Aurora Borealis.",
+      "about": "The ultimate 7-day loop around the entire country.",
+      "why_choose_us": [
+        "4x4 SUV with GPS",
+        "24/7 Roadside Assistance",
+        "Pre-booked Unique Stays"
+      ],
+      "accommodations": [
+        { "name": "Panorama Glass Lodge", "description": "Luxury cabin with glass walls and ceiling for viewing the Northern Lights from bed." },
+        { "name": "Fjord Side Guesthouse", "description": "Cozy, modern guesthouse nestled in the dramatic East Fjords." }
+      ],
+      "included": [
+        "Premium 4x4 rental vehicle with full insurance",
+        "Pre-programmed GPS with hidden gem waypoints",
+        "Luxury Blue Lagoon 'Retreat' entry",
+        "Guided glacier ice cave exploration tour",
+        "High-speed mobile Wi-Fi hotspot"
+      ],
+      "packing_list": [
+        "Fully windproof and waterproof jacket",
+        "Thermal base layers (merino wool recommended)",
+        "Sturdy waterproof hiking boots",
+        "Swimwear for geothermal pools",
+        "Gloves and a warm wool hat"
+      ],
+      "pricing_details": [
+        "Solo Adventure: Starting at $2,100 per person",
+        "Luxury SUV Upgrade: +$400",
+        "Aurora Photography Workshop: $150"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Fire and Thermal Blues",
+          "activities": [
+            {
+              "title": "Reykjanes Peninsula Drive",
+              "description": "Start your journey through the lunar landscapes of Reykjanes, visiting the bridge between continents."
+            },
+            {
+              "title": "Blue Lagoon Soak",
+              "description": "Wash away travel fatigue in the milky-blue, silica-rich geothermal waters of the world-famous lagoon."
+            }
+          ],
+          "highlights": [
+            "Lava field panoramas",
+            "Silica mud masks",
+            "First Icelandic sunset"
+          ],
+          "image": "https://images.unsplash.com/photo-1476610182048-b716b8518aae"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "South Coast Wonders",
+          "activities": [
+            {
+              "title": "Waterfall Road",
+              "description": "Walk behind the curtain of water at Seljalandsfoss and feel the power of Skógafoss."
+            },
+            {
+              "title": "Diamond Beach Walk",
+              "description": "Witness the contrast of glistening ice chunks on the midnight-black volcanic sand."
+            }
+          ],
+          "highlights": [
+            "Walking behind a waterfall",
+            "Basalt column formations",
+            "Glistening glacial ice"
+          ],
+          "image": "https://images.unsplash.com/photo-1529963183134-61a90db47eaf"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "Golden Circle Finale",
+          "activities": [
+            {
+              "title": "Geysir and Gullfoss",
+              "description": "Witness the eruption of Strokkur geyser and the immense scale of the Gullfoss 'Golden Falls'."
+            },
+            {
+              "title": "Reykjavík Reflection",
+              "description": "Conclude your loop in the world's northernmost capital with a celebratory local meal."
+            }
+          ],
+          "highlights": [
+            "Geyser thermal eruptions",
+            "Continental rift valley",
+            "Northern Lights display"
+          ],
+          "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+        }
+      ]
+    }
   },
   {
     "id": 13,
@@ -139,8 +1301,106 @@
     "rating": 5.0,
     "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=800&auto=format&fit=crop",
     "price": "$4,500",
+    "discount": "Complimentary Floating Breakfast",
+    "slots_available": 2,
+    "next_date": "december 2026",
     "description": "Stay in an overwater bungalow, snorkel in crystal-clear lagoons, and enjoy private beachfront dinners under the stars.",
-    "story": "Stepping out of our villa directly into the warm, turquoise ocean every morning was paradise. It was the perfect start to our marriage."
+    "story": "Stepping out of our villa directly into the warm, turquoise ocean every morning was paradise. It was the perfect start to our marriage.",
+    "extra_story": {
+      "title": "Oceanic Romance",
+      "subtitle": "Escape to secluded luxury in the Indian Ocean, where turquoise waters cradle your romance. This honeymoon masterpiece features ultra-luxury overwater bungalows, private sandbank dinners, and sunset dolphin cruises. contributor to reef restoration and indulge in restorative couples' massages in a paradise where the horizon is endless and the love is ocean-deep.",
+      "about": "A 7-day ultra-luxury retreat for couples.",
+      "why_choose_us": [
+        "Private Island Resort",
+        "24/7 Personal Butler",
+        "Reef Protection Program"
+      ],
+      "accommodations": [
+        { "name": "Sunset Overwater Villa", "description": "Ultra-private villa with glass floor panels and a private infinity pool over the lagoon." },
+        { "name": "Undersea Dining Hub", "description": "Exclusive access to the world's most renowned undersea restaurant for your anniversary." }
+      ],
+      "included": [
+        "Round-trip seaplane transfers from Malé",
+        "24/7 dedicated personal island butler",
+        "All-inclusive gourmet dining and premium spirits",
+        "Private guided snorkeling and coral planting",
+        "90-minute couples spa treatment overwater"
+      ],
+      "packing_list": [
+        "Elegant resort-wear for fine dining",
+        "High-quality reef-safe sun protection",
+        "Stylish swimwear and cover-ups",
+        "Lightweight sun hat and polarized glasses",
+        "Waterproof camera for coral snorkeling"
+      ],
+      "pricing_details": [
+        "Honeymoon Luxury: Starting at $4,500 per person",
+        "Undersea Dinner upgrade: +$600",
+        "Private Yacht Charter: $1,200"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Arrival in Paradise",
+          "activities": [
+            {
+              "title": "Seaplane Transfer",
+              "description": "Witness the breathtaking atolls from above during a scenic seaplane flight to your private island."
+            },
+            {
+              "title": "Sunset Welcome cocktail",
+              "description": "Enjoy a personalized welcome at your villa as the sun sets over the Indian Ocean."
+            }
+          ],
+          "highlights": [
+            "Aerial atoll views",
+            "Direct ocean villa access",
+            "Private butler greeting"
+          ],
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "Coral and Sandbanks",
+          "activities": [
+            {
+              "title": "Coral Restoration Session",
+              "description": "Join the resort's marine biologist to learn about and plant your own coral reef structure."
+            },
+            {
+              "title": "Private Sandbank Lunch",
+              "description": "A boat journey to a secluded sandbank where a gourmet picnic awaits for two."
+            }
+          ],
+          "highlights": [
+            "Meaningful reef contribution",
+            "Ultimate island privacy",
+            "Dolphin spotting cruise"
+          ],
+          "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "Depths and Dinners",
+          "activities": [
+            {
+              "title": "Manta Ray Snorkeling",
+              "description": "Boat trip to a local cleaning station to swim with majestic Manta Rays."
+            },
+            {
+              "title": "Farewell Beach Dinner",
+              "description": "A candlelit 5-course seafood dinner served directly on the sand under the starlight."
+            }
+          ],
+          "highlights": [
+            "Manta Ray encounter",
+            "Gourmet beachfront dining",
+            "Final island sunrise"
+          ],
+          "image": "https://images.unsplash.com/photo-1544552866-d3ed42536cfd"
+        }
+      ]
+    }
   },
   {
     "id": 14,
@@ -150,7 +1410,105 @@
     "rating": 4.9,
     "image": "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?q=80&w=800&auto=format&fit=crop",
     "price": "$3,200",
+    "discount": "Free Wine Tasting Tour",
+    "slots_available": 4,
+    "next_date": "september 2026",
     "description": "Experience the ultimate romantic getaway in a whitewashed cliffside hotel with private infinity pools and iconic caldera views.",
-    "story": "Watching the sun dip below the Aegean from our private terrace, painting the sky in vibrant colors, is a memory we will cherish forever."
+    "story": "Watching the sun dip below the Aegean from our private terrace, painting the sky in vibrant colors, is a memory we will cherish forever.",
+    "extra_story": {
+      "title": "Caldera Dreams",
+      "subtitle": "Perched on volcanic cliffs, Santorini offers breathtaking caldera views amidst white-washed architecture. Experience Mediterranean charm in Oia, featuring private cave villas and legendary sunsets. Sail on a private yacht to volcanic beaches and indulge in heritage wine tastings, capturing the essence of romantic beauty and timeless island allure.",
+      "about": "7 days of panoramic views and Mediterranean luxury.",
+      "why_choose_us": [
+        "Private Heated Infinity Pools",
+        "Concierge Table Bookings",
+        "Photography Concierge"
+      ],
+      "accommodations": [
+        { "name": "Cave Villa Suites", "description": "Traditional whitewashed cave architecture with ultra-modern luxury interiors and infinity views." },
+        { "name": "Estate Wine Manor", "description": "Boutique stay in a restored vineyard manor in the island's interior." }
+      ],
+      "included": [
+        "Private VIP airport and port transfers",
+        "Daily 'Caldera View' breakfast served in-villa",
+        "Private yacht cruise with snorkeling gear",
+        "Expert-led heritage wine tasting tour",
+        "Professional sunset photography session"
+      ],
+      "packing_list": [
+        "Elegant Greek island white-wear",
+        "Comfortable walking shoes for steep paths",
+        "Wide-brimmed straw hat and sunglasses",
+        "Swimwear for private pool and yacht",
+        "Evening attire for formal dinners"
+      ],
+      "pricing_details": [
+        "Romance Standard: Starting at $3,200 per person",
+        "Honeymoon Suite Upgrade: +$750",
+        "Private Chef Dinner: $300"
+      ],
+      "itinerary": [
+        {
+          "day_range": "Day 1-2",
+          "title": "Oia and Caldera Heights",
+          "activities": [
+            {
+              "title": "Oia Sunset Welcome",
+              "description": "Arrive in the world's most photogenic village and settle into your cave villa for a private sunset."
+            },
+            {
+              "title": "Caldera Path Hike",
+              "description": "A scenic trek from Fira to Oia along the rim of the volcano with endless sea views."
+            }
+          ],
+          "highlights": [
+            "Iconic blue-domed church views",
+            "Whitewashed alley exploration",
+            "Private terrace sunset"
+          ],
+          "image": "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713"
+        },
+        {
+          "day_range": "Day 3-5",
+          "title": "Yachts and Volcanic Earth",
+          "activities": [
+            {
+              "title": "Private Yacht Cruise",
+              "description": "Sail to the Red and White beaches, then anchor in the warm volcanic hot springs."
+            },
+            {
+              "title": "Estate Wine Tasting",
+              "description": "Visit heritage vineyards to taste wines grown in unique volcanic soil bins."
+            }
+          ],
+          "highlights": [
+            "Sailing the caldera crescent",
+            "Volcanic hot spring swim",
+            "Ancient Assyrtiko wine tasting"
+          ],
+          "image": "https://images.unsplash.com/photo-1505242859234-5804304926b1"
+        },
+        {
+          "day_range": "Day 6-7",
+          "title": "History and Farewells",
+          "activities": [
+            {
+              "title": "Akrotiri Archaeological Site",
+              "description": "Visit the 'Minoan Pompeii', a prehistoric city preserved by volcanic ash."
+            },
+            {
+              "title": "Final Rooftop Dinner",
+              "description": "Celebrate your journey with a final meal at a high-end restaurant overlooking the Aegean."
+            }
+          ],
+          "highlights": [
+            "Step back 3,000 years in time",
+            "Panoramic rooftop vistas",
+            "Final Mediterranean breeze"
+          ],
+          "image": "https://images.unsplash.com/photo-1541414779316-956a5084c0d4"
+        }
+      ]
+    }
   }
 ]
