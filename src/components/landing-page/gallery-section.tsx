@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import galleryImages from "@/helpers/galleryImage.json";
+import { cn } from "@/lib/utils";
 
 export const GallerySection = () => {
   return (
@@ -51,7 +52,10 @@ export const GallerySection = () => {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
               whileHover={{ scale: 1.02 }}
-              className={`relative overflow-hidden rounded-3xl group cursor-pointer ${image.className}`}
+              className={cn(
+                "relative overflow-hidden rounded-3xl group cursor-pointer",
+                image.className,
+              )}
             >
               <img
                 src={image.src}

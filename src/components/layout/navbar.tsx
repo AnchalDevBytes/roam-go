@@ -2,12 +2,9 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { HugeiconsIcon } from "@hugeicons/react";
-import {
-  ArrowRight01Icon,
-  Cancel01Icon,
-  Menu09Icon,
-} from "@hugeicons/core-free-icons";
+import { Cancel01Icon, Menu09Icon } from "@hugeicons/core-free-icons";
 import { motion, AnimatePresence } from "motion/react";
+import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,11 +36,12 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
+      className={cn(
+        "fixed top-0 inset-x-0 z-50 transition-all duration-300",
         scrolled
           ? "bg-white/90 backdrop-blur-md shadow-sm border-b border-gray-100 py-3"
-          : "bg-transparent py-5 lg:py-6"
-      }`}
+          : "bg-transparent py-5 lg:py-6",
+      )}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full flex items-center justify-between">
         <Link

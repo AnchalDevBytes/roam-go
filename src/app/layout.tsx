@@ -8,6 +8,7 @@ import {
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { cn } from "@/lib/utils";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -44,7 +45,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${figtree.variable} ${sourceSerif.variable} ${geistMono.variable} ${dancingScript.variable} antialiased`}
+        className={cn(
+          figtree.variable,
+          sourceSerif.variable,
+          geistMono.variable,
+          dancingScript.variable,
+          "antialiased",
+        )}
       >
         <div className="min-h-screen relative font-figtree">
           <Navbar />
