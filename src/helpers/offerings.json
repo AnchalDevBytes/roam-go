@@ -1,18 +1,32 @@
 [
   {
+    "title": "Custom Itineraries",
+    "subtitle": "Tailored trips designed around your interests and travel goals.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=800&auto=format&fit=crop"
+  },
+  {
     "title": "Guided Tours",
-    "subtitle": "Expert-led journeys to the world's most fascinating destinations. Discover hidden gems with our seasoned local guides."
+    "subtitle": "Expert-led journeys revealing hidden gems and rich history.",
+    "image": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=800&auto=format&fit=crop"
   },
   {
     "title": "Custom Flights",
-    "subtitle": "Seamless travel experiences with premium flight arrangements tailored to your schedule and preferences."
+    "subtitle": "Seamless premium flight arrangements set to your schedule.",
+    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=800&auto=format&fit=crop"
   },
   {
     "title": "Photography Trips",
-    "subtitle": "Capture breath-taking moments. Travel to locations renowned for their stunning visual appeal."
+    "subtitle": "Capture breathtaking moments in the most scenic locations.",
+    "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=800&auto=format&fit=crop"
   },
   {
     "title": "Exclusive Experiences",
-    "subtitle": "Skip the lines and enjoy VIP access to global landmarks, museums, and private events."
+    "subtitle": "Skip lines and enjoy VIP access to global landmarks.",
+    "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "title": "Luxury Stays",
+    "subtitle": "Unwind in the world's most luxurious and exclusive resorts.",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop"
   }
 ]
