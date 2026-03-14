@@ -4,7 +4,6 @@ import { GallerySection } from "@/components/landing-page/gallery-section";
 import { TravelCardsSection } from "@/components/landing-page/travel-cards";
 import { FilteredTravelsSection } from "@/components/landing-page/filtered-travels";
 import { TestimonialsSection } from "@/components/landing-page/testimonials";
-import { TravelStoriesSection } from "@/components/landing-page/travel-stories";
 import { ContactSection } from "@/components/landing-page/contact-section";
 
 const HomePage = () => {
@@ -15,7 +14,6 @@ const HomePage = () => {
       <TravelCardsSection />
       <FilteredTravelsSection />
       <TestimonialsSection />
-      <TravelStoriesSection />
       <ContactSection />
     </main>
   );

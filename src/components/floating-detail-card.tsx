@@ -4,8 +4,21 @@ import { HugeiconsIcon } from "@hugeicons/react";
 const FloatingDetailCard = ({ destination }: { destination: any }) => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[99%] sm:max-w-[95%] lg:max-w-7xl -mt-32 sm:-mt-48 relative z-10 pb-16">
-      <div className="bg-white px-6 py-8 sm:px-12 sm:py-14 w-full rounded-lg shadow-2xl mb-12 sm:mb-16">
-        <div className="flex flex-col xl:flex-row justify-between gap-10 lg:gap-12">
+      <div className="bg-white px-6 py-8 sm:px-12 sm:py-14 w-full rounded-lg shadow-md mb-12 sm:mb-16 relative overflow-hidden">
+        {/* Square pattern background */}
+        <div
+          className="absolute inset-0 opacity-[0.06] pointer-events-none"
+          style={{
+            backgroundImage: `linear-gradient(#1B2D29 1.5px, transparent 1.5px), linear-gradient(90deg, #1B2D29 1.5px, transparent 1.5px)`,
+            backgroundSize: "40px 40px",
+            maskImage:
+              "radial-gradient(circle at center, black, transparent 80%)",
+            WebkitMaskImage:
+              "radial-gradient(circle at center, black, transparent 80%)",
+          }}
+        />
+
+        <div className="flex flex-col xl:flex-row justify-between gap-10 lg:gap-12 relative z-10">
           <div className="flex-1">
             <div className="flex items-center gap-2 mb-3 font-light text-base">
               <HugeiconsIcon

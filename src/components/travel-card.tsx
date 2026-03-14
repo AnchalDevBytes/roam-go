@@ -82,23 +82,26 @@ const TravelCard = ({
                   <HugeiconsIcon icon={Location04Icon} className="w-4 h-4" />
                   {dest.location}
                 </div>
-                <h3 className="text-xl font-bold text-roam-go-forest mb-4 group-hover:text-roam-go-button transition-colors">
+                <h3 className="text-[24px] font-source-serif text-roam-go-forest mb-4 group-hover:text-roam-go-button transition-colors">
                   {dest.title}
                 </h3>
                 <div className="flex items-center justify-between mt-6 pt-6 border-t border-gray-100">
                   <div>
-                    <div className="text-roam-go-subtext text-sm mb-1">
+                    <div className="text-roam-go-subtext text-sm mb-1 leading-relaxed">
                       Starting from
                     </div>
-                    <div className="text-xl font-bold text-roam-go-forest">
+                    <div className="text-xl font-medium text-roam-go-forest">
                       {dest.price}
                     </div>
                   </div>
                   <Link
                     href={`/destinations/${dest.id}`}
-                    className="bg-roam-go-bone text-roam-go-forest px-4 py-2 rounded-full font-bold text-sm hover:bg-roam-go-forest hover:text-white transition-colors duration-300 shadow-sm border border-gray-200"
+                    className="group flex items-center justify-center gap-2 bg-white text-roam-go-forest border-2 border-roam-go-forest/10 px-4 py-2 rounded-full font-semibold text-sm hover:border-roam-go-forest hover:bg-roam-go-bone transition-all duration-300"
                   >
                     View Details
+                    <span className="text-roam-go-mist group-hover:text-roam-go-forest transition-colors">
+                      →
+                    </span>
                   </Link>
                 </div>
               </div>
