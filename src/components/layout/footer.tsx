@@ -7,8 +7,14 @@ import {
   Facebook02Icon,
   YoutubeIcon,
 } from "@hugeicons/core-free-icons";
+import { FormEvent } from "react";
 
 export const Footer = () => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    e.currentTarget.reset();
+  };
+
   return (
     <footer className="bg-roam-go-bone pt-20 pb-10 border-t border-gray-200">
       <div className="container mx-auto px-6 max-w-7xl">
@@ -50,18 +56,17 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-4">
               {[
-                "About Us",
-                "Our Services",
-                "Destinations",
-                "Travel Guides",
-                "Contact Us",
+                { name: "About Us", href: "/about" },
+                { name: "Our Services", href: "/#services" },
+                { name: "Destinations", href: "/destinations" },
+                { name: "Contact Us", href: "/#contact-us" },
               ].map((link, i) => (
                 <li key={i}>
                   <Link
-                    href="#"
+                    href={link.href}
                     className="text-roam-go-subtext hover:text-roam-go-forest transition-colors font-light"
                   >
-                    {link}
+                    {link.name}
                   </Link>
                 </li>
               ))}
@@ -81,12 +86,9 @@ export const Footer = () => {
                 "Banff, Canada",
               ].map((link, i) => (
                 <li key={i}>
-                  <Link
-                    href="#"
-                    className="text-roam-go-subtext hover:text-roam-go-forest transition-colors font-light"
-                  >
+                  <span className="text-roam-go-subtext font-light cursor-default">
                     {link}
-                  </Link>
+                  </span>
                 </li>
               ))}
             </ul>
@@ -100,7 +102,7 @@ export const Footer = () => {
               Subscribe to our newsletter for the latest travel updates and
               exclusive offers.
             </p>
-            <form className="flex flex-col gap-3">
+            <form className="flex flex-col gap-3" onSubmit={handleSubmit}>
               <input
                 type="email"
                 placeholder="Your email address"

@@ -7,8 +7,28 @@ import {
   Location01Icon,
   WhatsappIcon,
 } from "@hugeicons/core-free-icons";
+import { FormEvent, useState } from "react";
+
+const contactInfo = [
+  {
+    icon: Location01Icon,
+    text: "Ranchi, Jharkhand, India",
+  },
+  { icon: Call02Icon, text: "+91 8352222222" },
+  { icon: Mail02Icon, text: "support@roamgo.com" },
+  { icon: WhatsappIcon, text: "+91 8352222222 (WhatsApp)" },
+];
 
 export const ContactSection = () => {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitted(true);
+    e.currentTarget.reset();
+    setTimeout(() => setIsSubmitted(false), 5000); // hide after 5 seconds
+  };
+
   return (
     <section
       id="contact-us"
@@ -16,8 +36,8 @@ export const ContactSection = () => {
     >
       {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-roam-go-mist/10 rounded-full blur-[120px]"></div>
-        <div className="absolute bottom-[-10%] left-[-10%] w-96 h-96 bg-white/5 rounded-full blur-[100px]"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-roam-go-mist/10 rounded-full blur-[120px]" />
+        <div className="absolute bottom-[-10%] left-[-10%] w-96 h-96 bg-white/5 rounded-full blur-[100px]" />
       </div>
 
       <div className="container mx-auto px-6 max-w-7xl relative z-10">
@@ -48,15 +68,7 @@ export const ContactSection = () => {
             </motion.p>
 
             <div className="space-y-6">
-              {[
-                {
-                  icon: Location01Icon,
-                  text: "789 Travel Avenue, NY 10001, USA",
-                },
-                { icon: Call02Icon, text: "+1 (555) 123-4567" },
-                { icon: Mail02Icon, text: "support@roamgo.com" },
-                { icon: WhatsappIcon, text: "+1 (555) 987-6543 (WhatsApp)" },
-              ].map((item, idx) => (
+              {contactInfo.map((item, idx) => (
                 <motion.div
                   key={idx}
                   initial={{ opacity: 0, x: -20 }}
@@ -86,16 +98,28 @@ export const ContactSection = () => {
           >
             <div className="absolute -top-6 -right-6 w-20 h-20 bg-roam-go-mist rounded-full blur-[30px] opacity-60"></div>
 
-            <h3 className="text-2xl font-bold mb-8">Send Us A Message</h3>
+            <h3 className="text-2xl font-source-serif mb-8">
+              Send Us A Message
+            </h3>
 
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
+              {isSubmitted && (
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  className="p-4 bg-green-50 text-green-800 rounded-xl border border-green-200 text-sm font-medium"
+                >
+                  Form submitted! We will get back to you soon.
+                </motion.div>
+              )}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold mb-2 text-roam-go-subtext">
-                    First Name
+                    First Name <span className="text-red-500">*</span>
                   </label>
                   <input
                     type="text"
+                    required
                     className="w-full px-5 py-3 rounded-full bg-roam-go-bone border-none focus:ring-2 focus:ring-roam-go-forest transition-all"
                     placeholder="John"
                   />
@@ -115,10 +139,11 @@ export const ContactSection = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold mb-2 text-roam-go-subtext">
-                    Email Address
+                    Email Address <span className="text-red-500">*</span>
                   </label>
                   <input
                     type="email"
+                    required
                     className="w-full px-5 py-3 rounded-full bg-roam-go-bone border-none focus:ring-2 focus:ring-roam-go-forest transition-all"
                     placeholder="john@example.com"
                   />
@@ -130,16 +155,17 @@ export const ContactSection = () => {
                   <input
                     type="tel"
                     className="w-full px-5 py-3 rounded-full bg-roam-go-bone border-none focus:ring-2 focus:ring-roam-go-forest transition-all"
-                    placeholder="+1..."
+                    placeholder="+91..."
                   />
                 </div>
               </div>
 
               <div>
                 <label className="block text-sm font-semibold mb-2 text-roam-go-subtext">
-                  Message
+                  Message <span className="text-red-500">*</span>
                 </label>
                 <textarea
+                  required
                   rows={4}
                   className="w-full px-5 py-3 rounded-3xl bg-roam-go-bone border-none focus:ring-2 focus:ring-roam-go-forest transition-all resize-none"
                   placeholder="Tell us about your dream trip..."
