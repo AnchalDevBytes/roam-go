@@ -45,15 +45,12 @@ const TravelCard = ({
         ))}
       </motion.div>
 
-      <motion.div
-        layout
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
-      >
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <AnimatePresence mode="popLayout">
           {filtered.map((dest) => (
             <motion.div
               key={dest.id}
-              layout
+              layoutId={dest.title}
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
@@ -108,7 +105,7 @@ const TravelCard = ({
             </motion.div>
           ))}
         </AnimatePresence>
-      </motion.div>
+      </div>
     </div>
   );
 };
