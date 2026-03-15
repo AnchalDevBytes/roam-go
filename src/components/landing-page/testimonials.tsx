@@ -3,8 +3,11 @@ import testimonials from "@/helpers/testimonial.json";
 import { motion } from "motion/react";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { QuoteUpIcon, StarIcon } from "@hugeicons/core-free-icons";
+import { Marquee } from "@/components/marquee";
 
 export const TestimonialsSection = () => {
+  const marqueeItems = [...testimonials, ...testimonials];
+
   return (
     <section className="py-24 bg-roam-go-bone relative overflow-hidden">
       <div className="container mx-auto px-6 max-w-7xl">
@@ -34,15 +37,11 @@ export const TestimonialsSection = () => {
           </motion.h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {testimonials.map((test, i) => (
+        <Marquee className="sm:py-8 -my-4" innerClassName="gap-3 sm:gap-6">
+          {marqueeItems.map((test, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.6, delay: i * 0.2 }}
-              className="bg-white p-8 rounded-3xl shadow-lg relative border border-gray-50 flex flex-col justify-between"
+              className="relative bg-white p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-[300px] md:w-[320px] shrink-0 border border-gray-100/50 flex flex-col justify-between transition-transform hover:-translate-y-1 hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] duration-300 group"
             >
               <HugeiconsIcon
                 icon={QuoteUpIcon}
@@ -80,7 +79,7 @@ export const TestimonialsSection = () => {
               </div>
             </motion.div>
           ))}
-        </div>
+        </Marquee>
       </div>
     </section>
   );

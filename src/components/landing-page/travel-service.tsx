@@ -1,9 +1,9 @@
 "use client";
 import { motion } from "motion/react";
 import offerings from "@/helpers/offerings.json";
+import { Marquee } from "@/components/marquee";
 
 export const TravelServiceSection = () => {
-  // We duplicate the offerings array to create a seamless infinite marquee
   const marqueeItems = [...offerings, ...offerings];
 
   return (
@@ -37,20 +37,10 @@ export const TravelServiceSection = () => {
           </div>
         </div>
 
-        <div className="w-full relative py-8 -my-4 overflow-hidden">
-          {/* Fading Edges */}
-          <div className="absolute left-0 top-0 bottom-0 w-24 bg-linear-to-r from-roam-go-bone to-transparent z-20 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-24 bg-linear-to-l from-roam-go-bone to-transparent z-20 pointer-events-none" />
-
-          <motion.div
-            className="flex gap-4 sm:gap-8 w-max"
-            animate={{ x: ["0%", "-50%"] }}
-            transition={{
-              repeat: Infinity,
-              ease: "linear",
-              duration: 30,
-            }}
-          >
+        <Marquee 
+          className="py-8 -my-4" 
+          innerClassName="gap-4 sm:gap-8"
+        >
             {marqueeItems.map((pkg, i) => (
               <div
                 key={i}
@@ -77,8 +67,7 @@ export const TravelServiceSection = () => {
                 </p>
               </div>
             ))}
-          </motion.div>
-        </div>
+        </Marquee>
       </div>
     </section>
   );

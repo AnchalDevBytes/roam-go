@@ -27,7 +27,7 @@ const TravelCard = ({
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="sm:w-[70%] w-full gap-6 sm:gap-0 overflow-x-scroll sm:overflow-x-clip px-[3px] border-b-2 border-b-roam-go-mist mt-12 flex justify-between"
+        className="sm:w-[70%] w-full gap-6 overflow-x-scroll md:overflow-x-clip px-[3px] border-b-2 border-b-roam-go-mist mt-12 flex justify-between"
       >
         {categories.map((cat) => (
           <button
