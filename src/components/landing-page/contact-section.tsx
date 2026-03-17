@@ -8,15 +8,36 @@ import {
   WhatsappIcon,
 } from "@hugeicons/core-free-icons";
 import { FormEvent, useState } from "react";
+import { cn } from "@/lib/utils";
+import Link from "next/link";
+
+const PHONE = "918987601036";
+const WHATSAPP_MESSAGE = encodeURIComponent(
+  "Hi! I'm interested in booking a trip with RoamGo. Can you help me?",
+);
 
 const contactInfo = [
   {
     icon: Location01Icon,
     text: "Ranchi, Jharkhand, India",
+    href: "https://maps.google.com/?q=Ranchi,Jharkhand,India",
   },
-  { icon: Call02Icon, text: "+91 8352222222" },
-  { icon: Mail02Icon, text: "support@roamgo.com" },
-  { icon: WhatsappIcon, text: "+91 8352222222 (WhatsApp)" },
+  {
+    icon: Call02Icon,
+    text: "+91 8987601036",
+    href: "tel:+918987601036",
+  },
+  {
+    icon: Mail02Icon,
+    text: "contact@zarasana.com",
+    href: "mailto:contact@zarasana.com",
+  },
+  {
+    icon: WhatsappIcon,
+    text: "+91 8987601036 (WhatsApp)",
+    href: `https://wa.me/${PHONE}?text=${WHATSAPP_MESSAGE}`,
+    isWhatsapp: true,
+  },
 ];
 
 export const ContactSection = () => {
@@ -75,15 +96,36 @@ export const ContactSection = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.2 + idx * 0.1 }}
-                  className="flex items-center gap-4 text-gray-200"
                 >
-                  <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
-                    <HugeiconsIcon
-                      icon={item.icon}
-                      className="w-6 h-6 text-roam-go-mist"
-                    />
-                  </div>
-                  <span className="text-lg font-medium">{item.text}</span>
+                  <Link
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={cn(
+                      "flex items-center gap-4 text-gray-200 transition-all duration-200 group",
+                      item.isWhatsapp
+                        ? "hover:text-[#25D366]"
+                        : "hover:text-white",
+                    )}
+                  >
+                    <div
+                      className={`w-12 h-12 rounded-full flex items-center justify-center transition-colors duration-200 ${
+                        item.isWhatsapp
+                          ? "bg-[#25D366]/20 group-hover:bg-[#25D366]/40"
+                          : "bg-white/10 group-hover:bg-white/20"
+                      }`}
+                    >
+                      <HugeiconsIcon
+                        icon={item.icon}
+                        className={`w-6 h-6 ${
+                          item.isWhatsapp
+                            ? "text-[#25D366]"
+                            : "text-roam-go-mist"
+                        }`}
+                      />
+                    </div>
+                    <span className="text-lg font-medium">{item.text}</span>
+                  </Link>
                 </motion.div>
               ))}
             </div>
