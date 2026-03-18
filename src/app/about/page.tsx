@@ -9,6 +9,7 @@ import {
 } from "@hugeicons/core-free-icons";
 import { ContactSection } from "@/components/landing-page/contact-section";
 import { Marquee } from "@/components/marquee";
+import Image from "next/image";
 
 const stats = [
   { value: "10K+", label: "Happy Travelers" },
@@ -51,10 +52,13 @@ export default function AboutPage() {
     <main className="min-h-screen bg-roam-go-bone pt-24">
       <section className="relative py-20 lg:py-32 overflow-hidden mx-4 sm:mx-8 md:mx-12 rounded-4xl md:rounded-[3rem] bg-roam-go-forest mt-8">
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop"
             alt="Travelers exploring"
-            className="w-full h-full object-cover opacity-30"
+            fill
+            className="object-cover opacity-30"
+            priority
+            quality={90}
           />
           <div className="absolute inset-0 bg-linear-to-t from-roam-go-forest to-transparent" />
         </div>
@@ -117,10 +121,12 @@ export default function AboutPage() {
               className="relative"
             >
               <div className="aspect-4/5 rounded-4xl overflow-hidden relative">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop"
                   alt="Our Team"
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
+                  quality={90}
                 />
               </div>
               <div className="absolute -bottom-8 -right-8 w-64 p-6 bg-roam-go-forest rounded-4xl text-white shadow-2xl hidden md:block">

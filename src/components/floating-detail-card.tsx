@@ -1,5 +1,6 @@
 import { Location04Icon, StarIcon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
+import Image from "next/image";
 
 const FloatingDetailCard = ({ destination }: { destination: any }) => {
   return (
@@ -81,10 +82,12 @@ const FloatingDetailCard = ({ destination }: { destination: any }) => {
           </div>
 
           <div className="w-full xl:w-[500px] h-[300px] sm:h-[350px] shrink-0 rounded-2xl overflow-hidden shadow-lg relative group xl:ml-auto mt-6 xl:mt-0">
-            <img
+            <Image
               src={destination.extra_story.itinerary[0].image}
               alt={destination.title}
-              className="w-full h-full object-cover transition-transform group-hover:scale-125 duration-700"
+              fill
+              unoptimized
+              className="object-cover transition-transform group-hover:scale-125 duration-700"
             />
             <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
             <div className="absolute top-4 right-4 bg-black/30 backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-1.5 text-white text-sm font-semibold z-10 pointer-events-none">

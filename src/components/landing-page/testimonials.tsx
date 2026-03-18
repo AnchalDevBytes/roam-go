@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { QuoteUpIcon, StarIcon } from "@hugeicons/core-free-icons";
 import { Marquee } from "@/components/marquee";
+import Image from "next/image";
 
 export const TestimonialsSection = () => {
   const marqueeItems = [...testimonials, ...testimonials];
@@ -63,9 +64,11 @@ export const TestimonialsSection = () => {
               </p>
 
               <div className="flex items-center gap-4 mt-auto">
-                <img
+                <Image
                   src={test.image}
                   alt={test.name}
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-full object-cover border-2 border-roam-go-mist"
                 />
                 <div>

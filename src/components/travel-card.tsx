@@ -5,6 +5,7 @@ import Link from "next/link";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { Location04Icon, StarIcon } from "@hugeicons/core-free-icons";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 type Destination = (typeof destinations)[0];
 
@@ -73,10 +74,11 @@ const TravelCard = ({
               className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 group cursor-pointer"
             >
               <div className="relative h-64 overflow-hidden">
-                <img
+                <Image
                   src={dest.image}
                   alt={dest.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-roam-go-forest">
                   {dest.category}

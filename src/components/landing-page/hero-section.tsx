@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import Link from "next/link";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { ArrowRight01Icon, Call02Icon } from "@hugeicons/core-free-icons";
+import Image from "next/image";
 
 const travelers = [
   "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
@@ -47,9 +48,11 @@ export const HeroSection = () => {
                   key={i}
                   className="sm:w-10 sm:h-10 w-8 h-8 rounded-full border-2 border-white overflow-hidden bg-gray-200 shadow-sm"
                 >
-                  <img
+                  <Image
                     src={src}
                     alt="Traveler"
+                    width={40}
+                    height={40}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -122,10 +125,12 @@ export const HeroSection = () => {
           className="relative h-[400px] lg:h-[500px] w-full mt-12 lg:mt-0 z-10"
         >
           <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1200&auto=format&fit=crop"
               alt="Beautiful travel destination"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
+              priority
             />
             {/* Overlay gradient */}
             <div className="absolute inset-0 bg-linear-to-t from-roam-go-forest/60 via-transparent to-transparent"></div>

@@ -2,6 +2,7 @@
 import { motion } from "motion/react";
 import offerings from "@/helpers/offerings.json";
 import { Marquee } from "@/components/marquee";
+import Image from "next/image";
 
 export const TravelServiceSection = () => {
   const marqueeItems = [...offerings, ...offerings];
@@ -48,9 +49,11 @@ export const TravelServiceSection = () => {
             >
               <div className="relative mb-8 pb-5">
                 <div className="w-[210px] h-[120px] rounded-[100px] border-2 border-roam-go-forest overflow-hidden">
-                  <img
+                  <Image
                     src={pkg.image}
                     alt={pkg.title}
+                    width={210}
+                    height={120}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>

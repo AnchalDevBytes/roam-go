@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import destinations from "@/helpers/destination.json";
 import FloatingDetailCard from "@/components/floating-detail-card";
 import { ContactSection } from "@/components/landing-page/contact-section";
+import Image from "next/image";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -20,10 +21,13 @@ export default async function TravelDetails({ params }: PageProps) {
       <div className="min-h-screen bg-roam-go-bone">
         {/* Hero Banner */}
         <div className="relative h-[40vh] min-h-[400px] lg:h-[550px] w-full">
-          <img
+          <Image
             src={destination.image}
             alt={destination.title}
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
+            priority
+            quality={90}
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent" />
         </div>
