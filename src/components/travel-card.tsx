@@ -27,34 +27,49 @@ const TravelCard = ({
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="sm:w-[70%] w-full gap-6 overflow-x-scroll md:overflow-x-clip px-[3px] border-b-2 border-b-roam-go-mist mt-12 flex justify-between"
+        className="flex w-full sm:w-auto bg-white border border-roam-go-mist/60 p-1.5 rounded-xl shadow-sm mt-6 gap-1 overflow-x-auto"
       >
-        {categories.map((cat) => (
-          <button
-            key={cat}
-            onClick={() => setActiveCategory(cat)}
-            className={cn(
-              "px-6 py-2 rounded-t-xl font-semibold text-sm transition-all duration-300",
-              activeCategory === cat
-                ? "bg-roam-go-forest text-white shadow-lg shadow-roam-go-forest/20 scale-105"
-                : "bg-roam-go-bone text-roam-go-subtext hover:bg-gray-100",
-            )}
-          >
-            {cat}
-          </button>
-        ))}
+        {categories.map((cat) => {
+          const isActive = activeCategory === cat;
+          return (
+            <button
+              key={cat}
+              onClick={() => setActiveCategory(cat)}
+              className={cn(
+                "relative px-5 py-2 text-sm font-semibold rounded-lg transition-colors duration-200 whitespace-nowrap z-10",
+                isActive
+                  ? "text-white"
+                  : "text-roam-go-subtext hover:text-roam-go-forest",
+              )}
+            >
+              <span className="relative z-20">{cat}</span>
+              {isActive && (
+                <motion.span
+                  layoutId="travel-tab-pill"
+                  className="absolute inset-0 bg-roam-go-forest rounded-lg shadow-md z-10"
+                  transition={{ type: "spring", stiffness: 350, damping: 30 }}
+                />
+              )}
+            </button>
+          );
+        })}
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
         <AnimatePresence mode="popLayout">
-          {filtered.map((dest) => (
+          {filtered.map((dest, index) => (
             <motion.div
               key={dest.id}
-              layoutId={dest.title}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.9 }}
-              transition={{ duration: 0.4 }}
+              layout
+              initial={{ opacity: 0, y: 24, scale: 0.97 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: -12, scale: 0.96 }}
+              transition={{
+                duration: 0.35,
+                delay: index * 0.07,
+                ease: [0.25, 0.46, 0.45, 0.94],
+                layout: { type: "spring", stiffness: 300, damping: 30 },
+              }}
               className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 group cursor-pointer"
             >
               <div className="relative h-64 overflow-hidden">

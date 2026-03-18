@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export const GallerySection = () => {
   return (
-    <section className="py-24 bg-white relative">
+    <section className="py-28 sm:py-32 bg-white relative">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="flex flex-col items-center mb-16 text-center">
           <motion.div

@@ -22,9 +22,18 @@
         "Luxury Basecamp Lodge"
       ],
       "accommodations": [
-        { "name": "5th Station Base", "description": "High-altitude mountain villa with essential climber amenities." },
-        { "name": "Summit Huts", "description": "Traditional alpine huts for an authentic 'Goraiko' sunrise experience." },
-        { "name": "Lakeside Resort", "description": "Premium onsen hotel in Kawaguchiko for post-climb relaxation." }
+        {
+          "name": "5th Station Base",
+          "description": "High-altitude mountain villa with essential climber amenities."
+        },
+        {
+          "name": "Summit Huts",
+          "description": "Traditional alpine huts for an authentic 'Goraiko' sunrise experience."
+        },
+        {
+          "name": "Lakeside Resort",
+          "description": "Premium onsen hotel in Kawaguchiko for post-climb relaxation."
+        }
       ],
       "included": [
         "JATA Certified mountain guides",
@@ -203,9 +212,18 @@
         "Safe Solo-Travel Environment"
       ],
       "accommodations": [
-        { "name": "Bali (Arrival)", "description": "Oceanfront resort offering modern luxury and tropical tranquility." },
-        { "name": "Ubud", "description": "Boutique jungle retreat surrounded by rice terraces and cultural sites." },
-        { "name": "Coastal Retreat", "description": "Beachfront villa with private pools and serene ocean views." }
+        {
+          "name": "Bali (Arrival)",
+          "description": "Oceanfront resort offering modern luxury and tropical tranquility."
+        },
+        {
+          "name": "Ubud",
+          "description": "Boutique jungle retreat surrounded by rice terraces and cultural sites."
+        },
+        {
+          "name": "Coastal Retreat",
+          "description": "Beachfront villa with private pools and serene ocean views."
+        }
       ],
       "included": [
         "All accommodations as listed in the itinerary",
@@ -335,8 +353,14 @@
         "Luxury Glamping"
       ],
       "accommodations": [
-        { "name": "Mara Luxury Camp", "description": "High-end tented camp with ensuite facilities and private balconies overlooking the plains." },
-        { "name": "Nairobi Safari Club", "description": "Iconic city hotel offering a blend of modern comfort and colonial charm." }
+        {
+          "name": "Mara Luxury Camp",
+          "description": "High-end tented camp with ensuite facilities and private balconies overlooking the plains."
+        },
+        {
+          "name": "Nairobi Safari Club",
+          "description": "Iconic city hotel offering a blend of modern comfort and colonial charm."
+        }
       ],
       "included": [
         "Professional Maasai safari guides",
@@ -444,8 +468,14 @@
         "Expert Local Storytellers"
       ],
       "accommodations": [
-        { "name": "Hôtel Particulier", "description": "Romantic 17th-century mansion in the heart of Le Marais district." },
-        { "name": "Montmartre Suites", "description": "Elegant apartments with views of the Sacré-Cœur and Parisian rooftops." }
+        {
+          "name": "Hôtel Particulier",
+          "description": "Romantic 17th-century mansion in the heart of Le Marais district."
+        },
+        {
+          "name": "Montmartre Suites",
+          "description": "Elegant apartments with views of the Sacré-Cœur and Parisian rooftops."
+        }
       ],
       "included": [
         "Private Michelin-starred dinner",
@@ -553,8 +583,14 @@
         "Eco-Friendly Camping Gear"
       ],
       "accommodations": [
-        { "name": "Cusco Boutique Hotel", "description": "Luxe colonial-style hotel perfect for high-altitude acclimatization." },
-        { "name": "Expedition Tents", "description": "High-quality, weather-resistant tents with comfortable sleeping pads." }
+        {
+          "name": "Cusco Boutique Hotel",
+          "description": "Luxe colonial-style hotel perfect for high-altitude acclimatization."
+        },
+        {
+          "name": "Expedition Tents",
+          "description": "High-quality, weather-resistant tents with comfortable sleeping pads."
+        }
       ],
       "included": [
         "Machu Picchu permits and entry fees",
@@ -662,8 +698,14 @@
         "Premium Cold-Weather Gear"
       ],
       "accommodations": [
-        { "name": "Patagonia Eco-Lodge", "description": "Luxe cabins with panoramic views of Mount Fitz Roy." },
-        { "name": "Glamping Hub", "description": "Geodesic domes with transparent ceilings for star-gazing." }
+        {
+          "name": "Patagonia Eco-Lodge",
+          "description": "Luxe cabins with panoramic views of Mount Fitz Roy."
+        },
+        {
+          "name": "Glamping Hub",
+          "description": "Geodesic domes with transparent ceilings for star-gazing."
+        }
       ],
       "included": [
         "Private glacier trekking equipment",
@@ -771,8 +813,14 @@
         "Private Van Transfers"
       ],
       "accommodations": [
-        { "name": "Treehouse Lodge", "description": "Sustainable luxury in a high-canopy treehouse overlooking the jungle." },
-        { "name": "Pacific Sands Resort", "description": "Beachfront eco-resort with solar power and coral-safe pools." }
+        {
+          "name": "Treehouse Lodge",
+          "description": "Sustainable luxury in a high-canopy treehouse overlooking the jungle."
+        },
+        {
+          "name": "Pacific Sands Resort",
+          "description": "Beachfront eco-resort with solar power and coral-safe pools."
+        }
       ],
       "included": [
         "Private cloud forest canopy tour",
@@ -880,8 +928,14 @@
         "Small Group (Max 10)"
       ],
       "accommodations": [
-        { "name": "Palazzo Heritage", "description": "16th-century villa converted into a luxury boutique hotel with private gardens." },
-        { "name": "Chianti Farmhouse", "description": "Authentic 'agriturismo' surrounded by active wine estates and olive groves." }
+        {
+          "name": "Palazzo Heritage",
+          "description": "16th-century villa converted into a luxury boutique hotel with private gardens."
+        },
+        {
+          "name": "Chianti Farmhouse",
+          "description": "Authentic 'agriturismo' surrounded by active wine estates and olive groves."
+        }
       ],
       "included": [
         "Expert sommelier for all tastings",
@@ -989,8 +1043,14 @@
         "Off-the-beaten-path Bays"
       ],
       "accommodations": [
-        { "name": "Lagoon 450", "description": "Luxury catamaran with ensuite double cabins and sprawling deck space." },
-        { "name": "Paros Boutique Port", "description": "Luxe mainland stay for a night of shore-side rest and fine dining." }
+        {
+          "name": "Lagoon 450",
+          "description": "Luxury catamaran with ensuite double cabins and sprawling deck space."
+        },
+        {
+          "name": "Paros Boutique Port",
+          "description": "Luxe mainland stay for a night of shore-side rest and fine dining."
+        }
       ],
       "included": [
         "All mooring, fuel, and port fees",
@@ -1098,8 +1158,14 @@
         "Hidden Temple Maps"
       ],
       "accommodations": [
-        { "name": "Arashiyama Ryokan", "description": "Authentic Japanese inn with tatami floors, futons, and private onsen access." },
-        { "name": "Kyoto Center Suites", "description": "Modern minimalist studio hotel in the heart of the historic district." }
+        {
+          "name": "Arashiyama Ryokan",
+          "description": "Authentic Japanese inn with tatami floors, futons, and private onsen access."
+        },
+        {
+          "name": "Kyoto Center Suites",
+          "description": "Modern minimalist studio hotel in the heart of the historic district."
+        }
       ],
       "included": [
         "All temple and shrine entrance fees",
@@ -1207,8 +1273,14 @@
         "Pre-booked Unique Stays"
       ],
       "accommodations": [
-        { "name": "Panorama Glass Lodge", "description": "Luxury cabin with glass walls and ceiling for viewing the Northern Lights from bed." },
-        { "name": "Fjord Side Guesthouse", "description": "Cozy, modern guesthouse nestled in the dramatic East Fjords." }
+        {
+          "name": "Panorama Glass Lodge",
+          "description": "Luxury cabin with glass walls and ceiling for viewing the Northern Lights from bed."
+        },
+        {
+          "name": "Fjord Side Guesthouse",
+          "description": "Cozy, modern guesthouse nestled in the dramatic East Fjords."
+        }
       ],
       "included": [
         "Premium 4x4 rental vehicle with full insurance",
@@ -1316,8 +1388,14 @@
         "Reef Protection Program"
       ],
       "accommodations": [
-        { "name": "Sunset Overwater Villa", "description": "Ultra-private villa with glass floor panels and a private infinity pool over the lagoon." },
-        { "name": "Undersea Dining Hub", "description": "Exclusive access to the world's most renowned undersea restaurant for your anniversary." }
+        {
+          "name": "Sunset Overwater Villa",
+          "description": "Ultra-private villa with glass floor panels and a private infinity pool over the lagoon."
+        },
+        {
+          "name": "Undersea Dining Hub",
+          "description": "Exclusive access to the world's most renowned undersea restaurant for your anniversary."
+        }
       ],
       "included": [
         "Round-trip seaplane transfers from Malé",
@@ -1425,8 +1503,14 @@
         "Photography Concierge"
       ],
       "accommodations": [
-        { "name": "Cave Villa Suites", "description": "Traditional whitewashed cave architecture with ultra-modern luxury interiors and infinity views." },
-        { "name": "Estate Wine Manor", "description": "Boutique stay in a restored vineyard manor in the island's interior." }
+        {
+          "name": "Cave Villa Suites",
+          "description": "Traditional whitewashed cave architecture with ultra-modern luxury interiors and infinity views."
+        },
+        {
+          "name": "Estate Wine Manor",
+          "description": "Boutique stay in a restored vineyard manor in the island's interior."
+        }
       ],
       "included": [
         "Private VIP airport and port transfers",

@@ -4,7 +4,7 @@ import { HugeiconsIcon } from "@hugeicons/react";
 const FloatingDetailCard = ({ destination }: { destination: any }) => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[99%] sm:max-w-[95%] lg:max-w-7xl -mt-32 sm:-mt-48 relative z-10 pb-16">
-      <div className="bg-white px-6 py-8 sm:px-12 sm:py-14 w-full rounded-lg shadow-md mb-12 sm:mb-16 relative overflow-hidden">
+      <div className="bg-white px-6 py-8 sm:px-12 sm:py-14 w-full rounded-xl shadow-sm mb-12 sm:mb-16 relative overflow-hidden">
         {/* Square pattern background */}
         <div
           className="absolute inset-0 opacity-[0.06] pointer-events-none"
