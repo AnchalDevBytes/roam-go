@@ -49,8 +49,8 @@ export default function AboutPage() {
   const marqueeStats = [...stats, ...stats, ...stats];
 
   return (
-    <main className="min-h-screen bg-roam-go-bone pt-24">
-      <section className="relative py-20 lg:py-32 overflow-hidden mx-4 sm:mx-8 md:mx-12 rounded-4xl md:rounded-[3rem] bg-roam-go-forest mt-8">
+    <main className="min-h-screen bg-roam-go-bone pt-28">
+      <section className="relative py-20 lg:py-32 overflow-hidden mx-4 sm:mx-8 md:mx-20 rounded-4xl md:rounded-[3rem] bg-roam-go-forest mt-8">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop"

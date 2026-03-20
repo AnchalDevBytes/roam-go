@@ -15,7 +15,7 @@ export default function DestinationsPage() {
 
   return (
     <div className="w-full relative">
-      <div className="pt-32 pb-16 lg:pt-40 px-6 container mx-auto max-w-7xl">
+      <div className="pt-40 pb-16 lg:pt-44 px-6 container mx-auto max-w-7xl">
         <div className="flex flex-col items-center mb-16 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
