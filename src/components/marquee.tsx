@@ -10,12 +10,12 @@ interface MarqueeProps {
   fade?: boolean;
 }
 
-export const Marquee = ({ 
-  children, 
-  duration = 40, 
-  className = "", 
+export const Marquee = ({
+  children,
+  duration = 40,
+  className = "",
   innerClassName = "",
-  fade = true 
+  fade = true,
 }: MarqueeProps) => {
   return (
     <div className={`w-full relative overflow-hidden ${className}`}>

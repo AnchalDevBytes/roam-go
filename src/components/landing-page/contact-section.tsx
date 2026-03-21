@@ -47,7 +47,7 @@ export const ContactSection = () => {
     e.preventDefault();
     setIsSubmitted(true);
     e.currentTarget.reset();
-    setTimeout(() => setIsSubmitted(false), 5000); // hide after 5 seconds
+    setTimeout(() => setIsSubmitted(false), 5000);
   };
 
   return (
@@ -65,10 +65,10 @@ export const ContactSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 5, filter: "blur(4px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
               className="text-4xl md:text-5xl font-source-serif mb-6"
             >
               Let's Plan Your{" "}
@@ -77,10 +77,10 @@ export const ContactSection = () => {
               </span>
             </motion.h2>
             <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 5, filter: "blur(4px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
+              transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
               className="text-gray-300 text-lg mb-12 max-w-md"
             >
               Reach out to us to start crafting your unforgettable adventure.
@@ -92,8 +92,8 @@ export const ContactSection = () => {
               {contactInfo.map((item, idx) => (
                 <motion.div
                   key={idx}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, x: -2, filter: "blur(4px)" }}
+                  whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.2 + idx * 0.1 }}
                 >
@@ -132,10 +132,10 @@ export const ContactSection = () => {
           </div>
 
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 5, filter: "blur(4px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
             className="bg-white text-roam-go-forest p-8 md:p-10 rounded-[2.5rem] shadow-2xl relative"
           >
             <div className="absolute -top-6 -right-6 w-20 h-20 bg-roam-go-mist rounded-full blur-[30px] opacity-60"></div>

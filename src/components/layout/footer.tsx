@@ -106,7 +106,7 @@ export const Footer = () => {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="w-full px-5 py-3 rounded-full bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-roam-go-forest transition-all"
+                className="w-full px-5 py-3 rounded-full bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-roam-go-mist transition-all"
               />
               <button className="w-full px-5 py-3 rounded-full bg-roam-go-forest text-white font-bold hover:bg-roam-go-button transition-colors">
                 Subscribe
@@ -116,19 +116,32 @@ export const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-roam-go-subtext font-medium">
-          <p>© {new Date().getFullYear()} Roam Go. All rights reserved.</p>
-          <div className="flex items-center gap-6">
+          <p>
+            © {""}
             <Link
-              href="#"
+              target="_blank"
+              href="https://www.zarasana.com"
               className="hover:text-roam-go-forest transition-colors"
             >
-              Privacy Policy
+              zarasana.com
+            </Link>{" "}
+            all rights reserved, build with ❤️ by {""}
+            <Link
+              target="_blank"
+              href="https://github.com/AnchalDevBytes"
+              className="hover:text-roam-go-forest transition-colors"
+            >
+              AnchalDevBytes
             </Link>
+          </p>
+          <div className="flex items-center gap-1">
+            Developer :
             <Link
-              href="#"
+              target="_blank"
+              href="https://github.com/AnchalDevBytes"
               className="hover:text-roam-go-forest transition-colors"
             >
-              Terms of Service
+              AnchalDevBytes
             </Link>
           </div>
         </div>

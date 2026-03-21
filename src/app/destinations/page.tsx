@@ -18,9 +18,9 @@ export default function DestinationsPage() {
       <div className="pt-40 pb-16 lg:pt-44 px-6 container mx-auto max-w-7xl">
         <div className="flex flex-col items-center mb-16 text-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={{ opacity: 0, filter: "blur(8px)" }}
+            animate={{ opacity: 1, filter: "blur(0px)" }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white mb-6 border border-gray-100 shadow-sm"
           >
             <span className="text-sm font-medium text-roam-go-forest">
@@ -28,9 +28,9 @@ export default function DestinationsPage() {
             </span>
           </motion.div>
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            initial={{ opacity: 0, y: 5, filter: "blur(4px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
             className="text-5xl md:text-6xl font-source-serif text-roam-go-forest mb-6"
           >
             Discover Your Next{" "}
@@ -39,9 +39,9 @@ export default function DestinationsPage() {
             </span>
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            initial={{ opacity: 0, y: 5, filter: "blur(4px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
             className="text-lg text-roam-go-subtext max-w-2xl"
           >
             Filter by your travel style, read inspiring stories from past

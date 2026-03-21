@@ -25,9 +25,9 @@ const TravelCard = ({
   return (
     <div className="flex flex-col items-center gap-20">
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.3 }}
+        initial={{ opacity: 0, y: 2, filter: "blur(4px)" }}
+        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+        transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
         className="flex w-full sm:w-auto bg-white border border-roam-go-mist/60 p-1.5 rounded-xl shadow-sm mt-6 gap-1 overflow-x-auto"
       >
         {categories.map((cat) => {
@@ -61,16 +61,8 @@ const TravelCard = ({
           {filtered.map((dest, index) => (
             <motion.div
               key={dest.id}
-              layout
-              initial={{ opacity: 0, y: 24, scale: 0.97 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: -12, scale: 0.96 }}
-              transition={{
-                duration: 0.35,
-                delay: index * 0.07,
-                ease: [0.25, 0.46, 0.45, 0.94],
-                layout: { type: "spring", stiffness: 300, damping: 30 },
-              }}
+              layoutId={dest.title}
+              transition={{ type: "spring", stiffness: 300, damping: 30 }}
               className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 group cursor-pointer"
             >
               <div className="relative h-64 overflow-hidden">

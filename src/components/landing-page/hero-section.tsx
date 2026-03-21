@@ -37,9 +37,9 @@ export const HeroSection = () => {
       <div className="container mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center pb-20 pt-40 sm:pt-44">
         <div className="flex flex-col items-start gap-8 z-20">
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.6 }}
+            initial={{ opacity: 0, filter: "blur(8px)" }}
+            animate={{ opacity: 1, filter: "blur(0px)" }}
+            transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
             className="flex items-center gap-3 sm:gap-6"
           >
             <div className="flex -space-x-3 sm:-space-x-4">
@@ -69,9 +69,9 @@ export const HeroSection = () => {
           </motion.div>
 
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
+            initial={{ opacity: 0, y: 10, filter: "blur(4px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="text-5xl lg:text-7xl text-roam-go-forest leading-[1.1] tracking-tight font-source-serif"
           >
             Embrace the{" "}
@@ -82,9 +82,9 @@ export const HeroSection = () => {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            initial={{ opacity: 0, y: 5, filter: "blur(4px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
             className="text-lg lg:text-xl text-roam-go-subtext max-w-lg leading-relaxed"
           >
             Uncover hidden gems, experience vibrant cultures, and create
@@ -93,14 +93,14 @@ export const HeroSection = () => {
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
+            initial={{ opacity: 0, y: 2, filter: "blur(4px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
           >
             <Link
               href="/destinations"
-              className="group flex items-center justify-center gap-2 bg-roam-go-forest text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-roam-go-button transition-all duration-300 shadow-lg shadow-roam-go-forest/20 hover:shadow-xl hover:-translate-y-1"
+              className="group flex items-center justify-center gap-2 bg-roam-go-forest text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-roam-go-button transition-all duration-300 shadow-sm shadow-roam-go-forest/20 hover:shadow-lg"
             >
               Explore Destination
               <HugeiconsIcon
@@ -110,7 +110,7 @@ export const HeroSection = () => {
             </Link>
             <Link
               href="#contact-us"
-              className="group flex items-center justify-center gap-2 bg-white text-roam-go-forest border-2 border-roam-go-forest/10 px-8 py-4 rounded-full font-semibold text-lg hover:border-roam-go-forest hover:bg-roam-go-bone transition-all duration-300 hover:-translate-y-1"
+              className="group flex items-center justify-center gap-2 bg-white text-roam-go-forest border-2 border-roam-go-forest/10 px-8 py-4 rounded-full font-semibold text-lg hover:border-roam-go-forest hover:bg-roam-go-bone transition-all duration-300"
             >
               Contact Us
               <HugeiconsIcon icon={Call02Icon} className="w-5 h-5" />
@@ -119,7 +119,7 @@ export const HeroSection = () => {
         </div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.9, rotate: 2 }}
+          initial={{ opacity: 0, scale: 0.95, rotate: 2 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
           className="relative h-[400px] lg:h-[500px] w-full mt-12 lg:mt-0 z-10"
@@ -137,9 +137,9 @@ export const HeroSection = () => {
           </div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
+            initial={{ opacity: 0, y: 2, filter: "blur(4px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
             className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-md px-6 py-4 rounded-2xl shadow-xl flex items-center gap-4 border border-white/20"
           >
             <div className="w-12 h-12 rounded-full bg-roam-go-mist flex items-center justify-center text-roam-go-forest font-bold text-xl">

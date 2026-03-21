@@ -21,10 +21,10 @@ export const FilteredTravelsSection = () => {
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="flex flex-col items-center sm:mb-5 text-center">
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 5, filter: "blur(4px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
             className="text-4xl md:text-5xl font-source-serif text-roam-go-forest mb-6"
           >
             Find Your{" "}
@@ -44,7 +44,7 @@ export const FilteredTravelsSection = () => {
         <div className="mt-16 flex justify-center">
           <Link
             href="/destinations"
-            className="group flex items-center justify-center gap-2 bg-roam-go-forest text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-roam-go-button transition-all duration-300 shadow-lg shadow-roam-go-forest/20 hover:shadow-xl hover:-translate-y-1"
+            className="group flex items-center justify-center gap-2 bg-roam-go-forest text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-roam-go-button transition-all duration-300 shadow-sm shadow-roam-go-forest/20 hover:shadow-lg"
           >
             Explore Destination
             <HugeiconsIcon
